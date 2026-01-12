@@ -1,4 +1,4 @@
-site_name: EGR 314 Data Sheet Template
+site_name: EGR 314 Data Sheet 
 site_url: https://embedded-systems-design.github.io/EGR314DataSheetTemplate
 repo_url: https://github.com/embedded-systems-design/EGR314DataSheetTemplate
 edit_uri: edit/main/docs/
@@ -59,11 +59,11 @@ extra_javascript:
 not_in_nav: |
   static
   
-copyright: "Copyright &copy; 2026 team-name-here"
+copyright: "Copyright &copy; 2026 Asadbek Ruziev"
 
 extra:
   generator: false
   social:
     - icon: fontawesome/regular/file-code
       link: /2026_spring
-      name: 2023 Site    
+      name: 2026 Site    
