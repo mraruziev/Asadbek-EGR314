@@ -21,7 +21,7 @@ for<br>
 ### Project Summary
 
 * This will be updated to reflect <ins>your version</ins> of the team project, so when shared not via the team's report, the reader gets an idea of the direction of the project and how your work will contribute to the overall success.
-* Add context that ties into the link to your [team report.](https://embedded-systems-design.github.io/template_report/)
+* To get more information about our team work follow Team 202 [Team report.](https://egr314-s-2026-202.github.io/)
 
 ### My Contribution
 
