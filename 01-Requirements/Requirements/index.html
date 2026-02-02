@@ -825,40 +825,82 @@
   <h1>Module's Requirements</h1>
 
 <h2 id="module-requirements">Module Requirements</h2>
-<p>The following sections document the requirements that the this module need to fulfills to .....</p>
+<p>This section of the website outlines the requirements for the proper operation of my subsystem. The table includes threshold and target measures for each requirement. The rover's mobility is key, and ensuring that the motors and wheels support the upper body is crucial. Each requirement is important for the proper operation of my subsystem, ensuring it not only works properly but also meets EGR 314 criteria. Motor drivers require 9V, so my subsystem needs an additional power source. I have also included an additional column to show if the measure stretch requirement is met. The target measure is ideal for my motor, PCB, and power system.</p>
 <table>
 <thead>
 <tr>
-<th><strong>Requirement Description</strong></th>
-<th><strong>Measure of<br> Threshold</strong></th>
-<th><strong>Target<br>Measure</strong></th>
-<th style="text-align: center;"><strong>Stretch<br>Requirement<br>(Y-N)</strong></th>
+<th style="text-align: left;">Requirement description</th>
+<th style="text-align: left;">Measure of threshold</th>
+<th style="text-align: left;">Target measure</th>
+<th style="text-align: left;">Stretch requirement (Y-N)</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Surface mounted, 3.3V switching power regulatore</td>
-<td>3.2 Volts</td>
-<td>3.3 Volts</td>
-<td style="text-align: center;">No</td>
+<td style="text-align: left;">Surface-mounted, 3.3 V switching regulator</td>
+<td style="text-align: left;">3.2 Volts</td>
+<td style="text-align: left;">Stable 3.3 Volts</td>
+<td style="text-align: left;"><strong>No</strong></td>
 </tr>
 <tr>
-<td>Surface mounted microcontroller</td>
-<td>1 PIC or ESP</td>
-<td>8-bit PIC</td>
-<td style="text-align: center;">No</td>
+<td style="text-align: left;">Surface-mounted microcontroller for mobility control</td>
+<td style="text-align: left;">1 PIC18F or ESP32</td>
+<td style="text-align: left;">ESP32</td>
+<td style="text-align: left;"><strong>No</strong></td>
 </tr>
 <tr>
-<td>Wireless Communication</td>
-<td>Able to send or receive a Wi-Fi data</td>
-<td>Send and receive Wi-Fi Data to MQTT</td>
-<td style="text-align: center;">Yes</td>
+<td style="text-align: left;">Wireless communication through UART</td>
+<td style="text-align: left;">Able to send or receive data with at least a wireless communication subsystem</td>
+<td style="text-align: left;">Send and receive Wi-Fi Data to MQTT to all subsystems</td>
+<td style="text-align: left;"><strong>Yes</strong></td>
 </tr>
 <tr>
-<td><em>Rest are items your modules needs to support the task you are covering for the team's device.</em></td>
-<td>---</td>
-<td>---</td>
-<td style="text-align: center;"><strong>NO</strong></td>
+<td style="text-align: left;">Consumption of power</td>
+<td style="text-align: left;">Motors, motor driver, and PCB do not heat up too much</td>
+<td style="text-align: left;">Meets power budget guidelines</td>
+<td style="text-align: left;"><strong>No</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;">Low-voltage DC motors</td>
+<td style="text-align: left;">4 Brushless DC motors</td>
+<td style="text-align: left;">2 brushless DC motors can hold and move the upper body of the rover</td>
+<td style="text-align: left;"><strong>No</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;">Motor driver</td>
+<td style="text-align: left;">L298N motor driver</td>
+<td style="text-align: left;">No overheating in the test window</td>
+<td style="text-align: left;"><strong>No</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;">9V for motor</td>
+<td style="text-align: left;">Module runs well</td>
+<td style="text-align: left;">Consistent running without the need to change the battery</td>
+<td style="text-align: left;"><strong>No</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;">The motor moves forward and back</td>
+<td style="text-align: left;">All wheels turn on flat surfaces</td>
+<td style="text-align: left;">No slipping and works well on hard surfaces too</td>
+<td style="text-align: left;"><strong>No</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;">Motor turns right and left</td>
+<td style="text-align: left;">2 motors on the left and 2 on the right turn together and move, staying in the  same place</td>
+<td style="text-align: left;">The steering system works, and the 2 motors work with better-controlled movement</td>
+<td style="text-align: left;"><strong>Yes</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;">4 Wheels</td>
+<td style="text-align: left;">Wheels are good enough to hold the rover</td>
+<td style="text-align: left;">Wheels operate well and have stable alignment</td>
+<td style="text-align: left;"><strong>No</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;">Mechanical constraints</td>
+<td style="text-align: left;">Fits within a decided shape</td>
+<td style="text-align: left;">Clean mounting of motors to the PCB</td>
+<td style="text-align: left;"></td>
 </tr>
 </tbody>
 </table>
