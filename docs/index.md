@@ -9,14 +9,14 @@ tags:
 as part of<br>
 <font size= "8"> Project Name</font><br>
 for<br>
-<font size= "5"> Team ### </font><br>
+<font size= "5"> Team 201 </font><br>
 
-**Submission: January, 11, 2026**
+**Update: February, 10, 2026**
 </center>
 
 ## Introduction
 
-* **This needs to be updated so that a reader gets an idea of the purpose of this datasheet.**
+* **This will be updated weekly so that a reader gets an idea of the purpose of this datasheet.**
 
 ### Project Summary
 
@@ -25,9 +25,9 @@ for<br>
 
 ### My Contribution
 
-* This needs to be updated to reflect a team introduction
-* Content should also help an unfamiliar reader navigate to areas of interest. Information like:
+* Our team is focused on making rover project that explores the earth.
+* I am responsible for mobility of the rover using ESP32. I will be using 4 wheels and motors, motor driver to move the robot from the distance through WiFi.
 
-To review the details listed of the material used to construct the subsection, you can review it in the ["BOM"](https://embedded-systems-design.github.io/EGR314DataSheetTemplate/04-BOM/BOM/) section of the datasheet.
+To review the details listed of the material used to construct the subsection, you can review it in the ["Team"](https://egr314-s-2026-202.github.io/) section of the datasheet.
 
 >Continue for all the remaining/missing sections.
