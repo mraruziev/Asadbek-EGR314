@@ -7,11 +7,17 @@ tags:
 <center>
 <font size= "6">Asadbek Ruziev Datasheet</font><br>
 as part of<br>
-<font size= "8"> Project Name</font><br>
+<font size= "8"> Exploration Device Project</font><br>
 for<br>
+<<<<<<< HEAD
 <font size= "5"> Team 201 </font><br>
 
 **Update: February, 10, 2026**
+=======
+<font size= "5"> Team 202 </font><br>
+
+**Submission: January, 18, 2026**
+>>>>>>> 02168ddbc980d99897afe83c215e9ffd4c49bcbd
 </center>
 
 ## Introduction
@@ -21,7 +27,7 @@ for<br>
 ### Project Summary
 
 * This will be updated to reflect <ins>your version</ins> of the team project, so when shared not via the team's report, the reader gets an idea of the direction of the project and how your work will contribute to the overall success.
-* Add context that ties into the link to your [team report.](https://embedded-systems-design.github.io/template_report/)
+* To get more information about our team work follow Team 202 [Team report.](https://egr314-s-2026-202.github.io/)
 
 ### My Contribution
 

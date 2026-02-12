@@ -1,6 +1,6 @@
-site_name: EGR 314 Data Sheet 
-site_url: https://embedded-systems-design.github.io/EGR314DataSheetTemplate
-repo_url: https://github.com/embedded-systems-design/EGR314DataSheetTemplate
+site_name: EGR 314 Asadbek Datasheet 
+site_url: https://mraruziev.github.io/Asadbek-EGR314/
+repo_url: https://github.com/mraruziev/Asadbek-EGR314
 edit_uri: edit/main/docs/
 theme:
   name: material
