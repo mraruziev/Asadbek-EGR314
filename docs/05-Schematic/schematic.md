@@ -4,7 +4,7 @@ title: Module Schematic
 
 ## Overview
 
-This schematic is design to support motor, ESP32, motor driver subsystem. I will plan to use 4 motors in my subsystem. 
+This schematic is design to support motor, ESP32, motor driver subsystem. I will plan to use 4 motors in my subsystem. I will also be sending and receiving data through the 8-pin headers.
 
 
 # Motor Driver
@@ -15,7 +15,7 @@ I am going to use 2 headers for my motors as it can not be surface-mount
 
 # ESP32
 
-
+ESP32 is included in this schematic.
 
 ![schematic](kicad.jpg){style width:"350" height:"300;"}
 **Figure 1:** Showing my schematic
