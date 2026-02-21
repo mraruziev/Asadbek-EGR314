@@ -695,11 +695,44 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#resouces" class="md-nav__link">
+  <a href="#motor-driver" class="md-nav__link">
     <span class="md-ellipsis">
-      Resouces
+      Motor Driver
     </span>
   </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#motor" class="md-nav__link">
+    <span class="md-ellipsis">
+      Motor
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#esp32" class="md-nav__link">
+    <span class="md-ellipsis">
+      ESP32
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="ESP32">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      Resources
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -809,11 +842,44 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#resouces" class="md-nav__link">
+  <a href="#motor-driver" class="md-nav__link">
     <span class="md-ellipsis">
-      Resouces
+      Motor Driver
     </span>
   </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#motor" class="md-nav__link">
+    <span class="md-ellipsis">
+      Motor
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#esp32" class="md-nav__link">
+    <span class="md-ellipsis">
+      ESP32
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="ESP32">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      Resources
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -840,13 +906,16 @@
   
 
 
-  <h1>Module Schematic</h1>
-
 <h2 id="overview">Overview</h2>
-<p>This schematic is design to support motor, ESP32, motor driver subsystem. I will plan to 2 motors in my subsystem.</p>
+<p>This schematic is design to support motor, ESP32, motor driver subsystem. I will plan to use 4 motors in my subsystem. </p>
+<h1 id="motor-driver">Motor Driver</h1>
+<p>I am also going to use 2 L293DD motor driver. The motor driver is surface mount H-bridge. Enable 1 and Enable 2 allows to control the speed and input comes from the GPIO pins of ESP32, while output goes to motors.</p>
+<h1 id="motor">Motor</h1>
+<p>I am going to use 2 headers for my motors as it can not be surface-mount</p>
+<h1 id="esp32">ESP32</h1>
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../kicad.jpg" data-desc-position="bottom"><img alt="schematic" height:_300_="height:&quot;300;&quot;" src="../kicad.jpg" style="style" width:_350_="width:&quot;350&quot;"></a>
 <strong>Figure 1:</strong> Showing my schematic</p>
-<h2 id="resouces">Resouces</h2>
+<h2 id="resources">Resources</h2>
 <p>The schematic as a PDF download is available <a href="../Kicad.pdf"><em>here</em></a>, and the Zip folder of the project <a href="Individual Subsystem.zip"><em>here</em></a>.</p>
 
 
