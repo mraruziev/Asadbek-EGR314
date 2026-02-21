@@ -4,13 +4,13 @@ title: Module Schematic
 
 ## Overview
 
-This schematic is design to support .... (highlight functionally, power, and controller).
+This schematic is design to support motor, ESP32, motor driver subsystem. I will plan to 2 motors in my subsystem.
 
 
-![schematic](Screenshot.png){style width:"350" height:"300;"}
-**Figure ##:** Showing a example schematic.
+![schematic](kicad.jpg){style width:"350" height:"300;"}
+**Figure 1:** Showing my schematic
 
 
 ## Resouces
 
-The schematic as a PDF download is available [*here*](ExampleSchematic.pdf), and the Zip folder of the project [*here*](dummyZip.zip).
+The schematic as a PDF download is available [*here*](Kicad.pdf), and the Zip folder of the project [*here*](dummyZip.zip).
