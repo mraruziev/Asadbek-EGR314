@@ -13,4 +13,4 @@ This schematic is design to support motor, ESP32, motor driver subsystem. I will
 
 ## Resouces
 
-The schematic as a PDF download is available [*here*](Kicad.pdf), and the Zip folder of the project [*here*](dummyZip.zip).
+The schematic as a PDF download is available [*here*](Kicad.pdf), and the Zip folder of the project [*here*](Individual Subsystem.zip).
