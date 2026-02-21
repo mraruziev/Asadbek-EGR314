@@ -16,8 +16,7 @@ for<br>
 =======
 <font size= "5"> Team 202 </font><br>
 
-**Submission: January, 18, 2026**
->>>>>>> 02168ddbc980d99897afe83c215e9ffd4c49bcbd
+**Submission: February, 21, 2026**
 </center>
 
 ## Introduction
