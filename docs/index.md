@@ -25,7 +25,7 @@ for<br>
 
 ### Project Summary
 
-* This will be updated to reflect <ins>your version</ins> of the team project, so when shared not via the team's report, the reader gets an idea of the direction of the project and how your work will contribute to the overall success.
+* I am responsible for mobillity of <ins>the rover project.</ins> We are team of 7 engineers who are designing explorative rover in 4months. Please, take a look in the process of our design through different tabs and team report. IF you would like to learn more about other team member's subsystem, access team report and follow link for each member's website.
 * To get more information about our team work follow Team 202 [Team report.](https://egr314-s-2026-202.github.io/)
 
 ### My Contribution
@@ -34,5 +34,3 @@ for<br>
 * I am responsible for mobility of the rover using ESP32. I will be using 4 wheels and motors, motor driver to move the robot from the distance through WiFi.
 
 To review the details listed of the material used to construct the subsection, you can review it in the ["Team"](https://egr314-s-2026-202.github.io/) section of the datasheet.
-
->Continue for all the remaining/missing sections.
