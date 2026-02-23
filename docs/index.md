@@ -9,19 +9,18 @@ tags:
 as part of<br>
 <font size= "8"> Exploration Device Project</font><br>
 for<br>
-<<<<<<< HEAD
-<font size= "5"> Team 201 </font><br>
+<font size= "5"> Crop S.C.O.U.T. </font><br>
 
 **Update: February, 10, 2026**
 =======
 <font size= "5"> Team 202 </font><br>
 
-**Submission: February, 21, 2026**
+**Submission: February, 23, 2026**
 </center>
 
 ## Introduction
 
-* **This will be updated weekly so that a reader gets an idea of the purpose of this datasheet.**
+* ****
 
 ### Project Summary
 
