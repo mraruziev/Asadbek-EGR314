@@ -6,7 +6,7 @@ tags:
 ---
 
 ## Overview
-Purpose of having block diagram is to help visualise my subsystem so that you can understand the workflow better. I have included 2 motors that are going to be parallel on the right. 2 motors on the left will also work together as parallel. I have planned to make the rover working with 2 motors together on each side, then making chassis as my stretch goal. This block diagram clearly shows how power, control and data will be floweing through my subsystem and to make the whole rover system work. Mobility of the rover is crucial to successfull launch of the project.
+Purpose of having block diagram is to help visualise my subsystem so that you can understand the workflow of code and schematics better. I have included 2 motors that are going to be parallel on the right. 2 motors on the left will also work together as parallel. I have planned to make the rover working with 2 motors together on each side, then making chassis as my stretch goal. This block diagram clearly shows how power, control and data will be floweing through my subsystem and to make the whole rover system work. Mobility of the rover is crucial to successfull launch of the project.
 
 <br> <br>
 
