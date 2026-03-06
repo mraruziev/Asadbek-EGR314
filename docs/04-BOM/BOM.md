@@ -8,24 +8,30 @@ tags:
 ## Overview
 Written context needs to added!
 
->Pick **ONLY** one of the two examples show below. **Remove** the other example. **REMOVE notations within the remaining section about being an example.**  
+## Bill of Materials
 
-## Bill of Materials (Example as Table)
+  
+**Overview**  
+**Half of the items below will be ordered from Digikey, and the other half is available from the Peralta labs.** 
 
-*Table ##: An example of one approach to adding your BOM table to this section.*
+Table 1: Mobility Subsystem Bill of Materials
 
-| **Part Name/Description** | **Qty** | **Unit Cost** | **Total Cost** | **Manufacture** | **Manufacturer #** | **Vendor Link** |**Datasheet Link** | **Schematic Reference Designators** |
-|:--------------------|:----|:---------------|:-----|:--------|:-----|:-----|:----|:-----|
-8-bit SIPO/SISO Shift Register, SOIC-16 package | 1 | $0.49 | $ 0.49 | NXP | 74HC595D,112 | [DigiKey](https://www.digikey.com/en/products/detail/nexperia-usa-inc/74HC595D-112/763550) | [datasheet link](https://assets.nexperia.com/documents/data-sheet/74HC_HCT595.pdf) | U1 |
-0.1 µF Ceramic Capacitor, +/-10%, X7R, 50V, 0805 package |10 | 0.2750 | $2.75 | KEMET | C0805F104K5RACTU | PRLTA 109 |n/a | C2, C4, C6, C7, C8, C9, C10, C11, C12, C16
+| Part name | Quantity | Unit cost | Total cost | Manufacturer | Manufacturer \# | Supplier | Vendor link | Link to the datasheet | Reference for the schematic |
+| :---- | :---- | :---- | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
+| ESP32 Microcontroller | 1 | $5.06 | $5.06 | Espressif systems | ESP32-S3-WROOM-1-N4 | Peralta | [Link](https://www.digikey.com/en/products/detail/espressif-systems/ESP32-S3-WROOM-1-N4/16162639)  | [Link](https://documentation.espressif.com/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf) |  |
+| 3.3V Switching Voltage Regulator | 2 | $2.16 | $4.32 | onsemi | LM2575D2T-3.3R4GOSTR-ND | Peralta | [Link](https://www.digikey.com/en/products/detail/onsemi/LM2575D2T-3-3R4G/1476688) | [Link](https://www.onsemi.com/pdf/datasheet/lm2575-d.pdf) |  |
+| 0.75A Fuse 5x20mm | 2 |  |  |  |  | Digikey | Link | Link |  |
+| Motor driver | 2 | $3.77 | $7.54 | Infineon Technologies | TLE9201SGAUMA1TR-ND | Digikey | [Link](https://www.digikey.com/en/products/detail/infineon-technologies/TLE9201SGAUMA1/5960696) | Link |  |
+| Motors | 4 | $2.95 | $11.8 | Adafruit Industries LLC | GEARMOTOR 200 RPM 3-6V DC | Digikey | [Link](https://www.digikey.com/en/products/detail/adafruit-industries-llc/3777/8687221) | [Link](https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/713/3777_Web.pdf) |  |
+|  |  |  |  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |  |  |  |
+
+
 
 Note: Setting it up as a table is nice because it is completely viewable without scaling issues. <ins>Downside</ins> is that you have to do the math.
 
 * You could also import your BOM via a screenshot of the spreadsheet created BOM
 
-## Bill of Materials (Example as Image)
-![](BOM-Screenshot.png){style width: "2000"}
-**Figure ##:** Example Bill of Materials as a screenshot.
 
 As you can see, the text can be difficult to read without opening the image.
 
