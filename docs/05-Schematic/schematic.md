@@ -14,11 +14,12 @@ This schematic is designed to support 4 motors, motor drivers, ESP32 subsystem. 
 
 
 ## 1. Microcontroller interface
-ESP32 microcontroller is included in this schematic.
 * ESP32-S3-WROOM-1
 * UART daisy chain interface 
 * USB for programming
 * Boot, reset buttons
+ESP32 microcontroller is included in this schematic.
+
 
 ## 2. Motor Driver
 I am also going to use 2 L293DD motor driver. The motor driver is surface mount H-bridge. Enable 1 and Enable 2 allows to control the speed and input comes from the GPIO pins of ESP32, while output goes to motors.
