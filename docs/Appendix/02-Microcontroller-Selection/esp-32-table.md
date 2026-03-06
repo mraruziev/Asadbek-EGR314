@@ -32,10 +32,10 @@ Table1: ESP32-S3-WROOM-1-N4 diagram
 | Unit cost                                     | $5.06      | Find on Digikey, Jameco, MPJA, or octopart                                                                |
 | Absolute Maximum Current for entire IC        | ?      | Find in the microcontroller datasheet                                                                     |
 | Supply Voltage Range                          | 0.3/3.3/3.6 V      | Min / Nominal / Max / Absolute Max, as found in datasheet                                                 |
-| Absolute Maximum current <br> (for entire IC) | ?      | as found in datasheet                                                                                     |
+| Absolute Maximum current <br> (for entire IC) | 1500 mA      | as found in datasheet                                                                                     |
 | Maximum GPIO current <br> (per pin)           | 40mA      | as found in datasheet                                                                                     |
 | Supports External Interrupts?                 | Yes      | as found in datasheet                                                                                     |
-| Required Programming Hardware, Cost, URL      | ?      | as found in datasheet                                                                                     |
+| Required Programming Hardware, Cost, URL      | USB Micro, $0.78 [Link] (https://www.digikey.com/en/products/detail/jae-electronics/DX4R005JJ2R1800/3903229?s=N4IgTCBcDaIGwHYAMBaMiCsKCMKByAIiALoC%2BQA)     | as found in datasheet                                                                                     |
 
 | Module         | # Available | Needed | Associated Pins (or * for any) |
 | -------------- | ----------- | ------ | ------------------------------ |
