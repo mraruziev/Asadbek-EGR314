@@ -649,18 +649,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#bill-of-materials-example-as-table" class="md-nav__link">
+  <a href="#bill-of-materials" class="md-nav__link">
     <span class="md-ellipsis">
-      Bill of Materials (Example as Table)
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#bill-of-materials-example-as-image" class="md-nav__link">
-    <span class="md-ellipsis">
-      Bill of Materials (Example as Image)
+      Bill of Materials
     </span>
   </a>
   
@@ -827,18 +818,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#bill-of-materials-example-as-table" class="md-nav__link">
+  <a href="#bill-of-materials" class="md-nav__link">
     <span class="md-ellipsis">
-      Bill of Materials (Example as Table)
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#bill-of-materials-example-as-image" class="md-nav__link">
-    <span class="md-ellipsis">
-      Bill of Materials (Example as Image)
+      Bill of Materials
     </span>
   </a>
   
@@ -880,47 +862,109 @@
 
 <h2 id="overview">Overview</h2>
 <p>Written context needs to added!</p>
-<blockquote>
-<p>Pick <strong>ONLY</strong> one of the two examples show below. <strong>Remove</strong> the other example. <strong>REMOVE notations within the remaining section about being an example.</strong>  </p>
-</blockquote>
-<h2 id="bill-of-materials-example-as-table">Bill of Materials (Example as Table)</h2>
-<p><em>Table ##: An example of one approach to adding your BOM table to this section.</em></p>
+<h2 id="bill-of-materials">Bill of Materials</h2>
+<p><strong>Overview</strong><br>
+<strong>Half of the items below will be ordered from Digikey, and the other half is available from the Peralta labs.</strong> </p>
+<p>Table 1: Mobility Subsystem Bill of Materials</p>
 <table>
 <thead>
 <tr>
-<th style="text-align: left;"><strong>Part Name/Description</strong></th>
-<th style="text-align: left;"><strong>Qty</strong></th>
-<th style="text-align: left;"><strong>Unit Cost</strong></th>
-<th style="text-align: left;"><strong>Total Cost</strong></th>
-<th style="text-align: left;"><strong>Manufacture</strong></th>
-<th style="text-align: left;"><strong>Manufacturer #</strong></th>
-<th style="text-align: left;"><strong>Vendor Link</strong></th>
-<th style="text-align: left;"><strong>Datasheet Link</strong></th>
-<th style="text-align: left;"><strong>Schematic Reference Designators</strong></th>
+<th style="text-align: left;">Part name</th>
+<th style="text-align: left;">Quantity</th>
+<th style="text-align: left;">Unit cost</th>
+<th style="text-align: left;">Total cost</th>
+<th style="text-align: left;">Manufacturer</th>
+<th style="text-align: left;">Manufacturer #</th>
+<th style="text-align: left;">Supplier</th>
+<th style="text-align: left;">Vendor link</th>
+<th style="text-align: left;">Link to the datasheet</th>
+<th style="text-align: left;">Reference for the schematic</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;">8-bit SIPO/SISO Shift Register, SOIC-16 package</td>
+<td style="text-align: left;">ESP32 Microcontroller</td>
 <td style="text-align: left;">1</td>
-<td style="text-align: left;">$0.49</td>
-<td style="text-align: left;">$ 0.49</td>
-<td style="text-align: left;">NXP</td>
-<td style="text-align: left;">74HC595D,112</td>
-<td style="text-align: left;"><a href="https://www.digikey.com/en/products/detail/nexperia-usa-inc/74HC595D-112/763550">DigiKey</a></td>
-<td style="text-align: left;"><a href="https://assets.nexperia.com/documents/data-sheet/74HC_HCT595.pdf">datasheet link</a></td>
-<td style="text-align: left;">U1</td>
+<td style="text-align: left;">$5.06</td>
+<td style="text-align: left;">$5.06</td>
+<td style="text-align: left;">Espressif systems</td>
+<td style="text-align: left;">ESP32-S3-WROOM-1-N4</td>
+<td style="text-align: left;">Peralta</td>
+<td style="text-align: left;"><a href="https://www.digikey.com/en/products/detail/espressif-systems/ESP32-S3-WROOM-1-N4/16162639">Link</a></td>
+<td style="text-align: left;"><a href="https://documentation.espressif.com/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf">Link</a></td>
+<td style="text-align: left;"></td>
 </tr>
 <tr>
-<td style="text-align: left;">0.1 µF Ceramic Capacitor, +/-10%, X7R, 50V, 0805 package</td>
-<td style="text-align: left;">10</td>
-<td style="text-align: left;">0.2750</td>
-<td style="text-align: left;">$2.75</td>
-<td style="text-align: left;">KEMET</td>
-<td style="text-align: left;">C0805F104K5RACTU</td>
-<td style="text-align: left;">PRLTA 109</td>
-<td style="text-align: left;">n/a</td>
-<td style="text-align: left;">C2, C4, C6, C7, C8, C9, C10, C11, C12, C16</td>
+<td style="text-align: left;">3.3V Switching Voltage Regulator</td>
+<td style="text-align: left;">2</td>
+<td style="text-align: left;">$2.16</td>
+<td style="text-align: left;">$4.32</td>
+<td style="text-align: left;">onsemi</td>
+<td style="text-align: left;">LM2575D2T-3.3R4GOSTR-ND</td>
+<td style="text-align: left;">Peralta</td>
+<td style="text-align: left;"><a href="https://www.digikey.com/en/products/detail/onsemi/LM2575D2T-3-3R4G/1476688">Link</a></td>
+<td style="text-align: left;"><a href="https://www.onsemi.com/pdf/datasheet/lm2575-d.pdf">Link</a></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">0.75A Fuse 5x20mm</td>
+<td style="text-align: left;">2</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Digikey</td>
+<td style="text-align: left;">Link</td>
+<td style="text-align: left;">Link</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">Motor driver</td>
+<td style="text-align: left;">2</td>
+<td style="text-align: left;">$3.77</td>
+<td style="text-align: left;">$7.54</td>
+<td style="text-align: left;">Infineon Technologies</td>
+<td style="text-align: left;">TLE9201SGAUMA1TR-ND</td>
+<td style="text-align: left;">Digikey</td>
+<td style="text-align: left;"><a href="https://www.digikey.com/en/products/detail/infineon-technologies/TLE9201SGAUMA1/5960696">Link</a></td>
+<td style="text-align: left;">Link</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">Motors</td>
+<td style="text-align: left;">4</td>
+<td style="text-align: left;">$2.95</td>
+<td style="text-align: left;">$11.8</td>
+<td style="text-align: left;">Adafruit Industries LLC</td>
+<td style="text-align: left;">GEARMOTOR 200 RPM 3-6V DC</td>
+<td style="text-align: left;">Digikey</td>
+<td style="text-align: left;"><a href="https://www.digikey.com/en/products/detail/adafruit-industries-llc/3777/8687221">Link</a></td>
+<td style="text-align: left;"><a href="https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/713/3777_Web.pdf">Link</a></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
 </tr>
 </tbody>
 </table>
@@ -928,9 +972,6 @@
 <ul>
 <li>You could also import your BOM via a screenshot of the spreadsheet created BOM</li>
 </ul>
-<h2 id="bill-of-materials-example-as-image">Bill of Materials (Example as Image)</h2>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../BOM-Screenshot.png" data-desc-position="bottom"><img _2000_="&quot;2000&quot;" alt="" src="../BOM-Screenshot.png" style="style" width:="width:"></a>
-<strong>Figure ##:</strong> Example Bill of Materials as a screenshot.</p>
 <p>As you can see, the text can be difficult to read without opening the image.</p>
 <h2 id="resouce">Resouce</h2>
 <p>The Bill of Material as a PDF download is available <a href="../PDF_For_BOM_EXAMPLE.pdf"><em>here</em></a>.</p>
