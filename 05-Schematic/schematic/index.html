@@ -952,7 +952,7 @@
 
 <h3 id="overview">Overview</h3>
 <p>This schematic is designed to support 4 motors, motor drivers, ESP32 subsystem. I will also going to be sending and receiving data through TX and RX of the 8-pin headers. Symbols were sourced from the Digikey website.</p>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../kicadv1.png" data-desc-position="bottom"><img alt="schematic" height:_300_="height:&quot;300;&quot;" src="../kicadv1.png" style="style" width:_350_="width:&quot;350&quot;"></a>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../kicadv4.png" data-desc-position="bottom"><img alt="schematic" height:_300_="height:&quot;300;&quot;" src="../kicadv4.png" style="style" width:_350_="width:&quot;350&quot;"></a>
 <strong>Figure 1:</strong> Showing my schematic</p>
 <h3 id="key-functional-blocks">Key functional blocks</h3>
 <h2 id="1-microcontroller-interface">1. Microcontroller interface</h2>
@@ -970,13 +970,13 @@ ESP32 microcontroller is included in this schematic.</li>
 <li>DIR → direction</li>
 <li>DIS → enable/disable</li>
 <li>VSO 
-I am also going to use 2 L293DD motor driver. The motor driver is surface mount H-bridge. Enable 1 and Enable 2 allows to control the speed and input comes from the GPIO pins of ESP32, while output goes to motors.</li>
+I am also going to use 4 motor drivers. The motor driver is surface mount H-bridge. Out1 and Out2 allows to control the speed and input comes from the GPIO pins of ESP32, while output goes to motors.</li>
 </ul>
 <h2 id="shared-spi">Shared SPI</h2>
 <ul>
-<li>GPIO11 → SI on Driver1, Driver2, Driver3, Driver4</li>
-<li>GPIO13 ← SO on Driver1, Driver2, Driver3, Driver4</li>
-<li>GPIO12 → SCK on Driver1, Driver2, Driver3, Driver4
+<li>GPIO11 → SI on all drivers</li>
+<li>GPIO13 ← SO on all drivers</li>
+<li>GPIO12 → SCK on all drivers
 Since, I am going to use 4 motors together, I will have 3 shared SPI pins that go to the same ESP32 GPIO as above.</li>
 </ul>
 <h2 id="3-motors">3. Motors</h2>
