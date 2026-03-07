@@ -7,7 +7,7 @@ This schematic is designed to support 4 motors, motor drivers, ESP32 subsystem. 
 
 
 
-![schematic](314_kicad.png){style width:"350" height:"300;"}
+![schematic](kicadv1.png){style width:"350" height:"300;"}
 **Figure 1:** Showing my schematic
 
 ### Key functional blocks
@@ -50,4 +50,4 @@ I am going to use 2 headers for each of my motors as it can not be surface-mount
 
 ## Resources
 
-The schematic as a PDF download is available [*here*](Kicad.pdf), and the Zip folder of the project [*here*](Individual Subsystem.zip).
+The schematic as a PDF download is available [*here*](kicadv1.pdf), and the Zip folder of the project [*here*](Individual Subsystem.zip).
