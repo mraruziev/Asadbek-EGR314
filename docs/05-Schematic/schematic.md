@@ -12,8 +12,6 @@ This schematic is designed to support 4 motors, motor drivers, ESP32 subsystem. 
 
 ### Key functional blocks
 
-
-
 ## 1. Microcontroller interface
 * ESP32-S3-WROOM-1
 * UART daisy chain interface 
