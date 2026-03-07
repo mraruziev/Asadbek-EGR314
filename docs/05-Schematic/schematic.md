@@ -6,8 +6,7 @@ title: Module Schematic
 This schematic is designed to support 4 motors, motor drivers, ESP32 subsystem. I will also going to be sending and receiving data through TX and RX of the 8-pin headers. Symbols were sourced from the Digikey website.
 
 
-
-![schematic](kicadv1.png){style width:"350" height:"300;"}
+![schematic](kicadv4.png){style width:"350" height:"300;"}
 **Figure 1:** Showing my schematic
 
 ### Key functional blocks
@@ -26,12 +25,12 @@ ESP32 microcontroller is included in this schematic.
 * DIR → direction
 * DIS → enable/disable
 * VSO 
-I am also going to use 2 L293DD motor driver. The motor driver is surface mount H-bridge. Enable 1 and Enable 2 allows to control the speed and input comes from the GPIO pins of ESP32, while output goes to motors.
+I am also going to use 4 motor drivers. The motor driver is surface mount H-bridge. Out1 and Out2 allows to control the speed and input comes from the GPIO pins of ESP32, while output goes to motors.
 
 ## Shared SPI
-* GPIO11 → SI on Driver1, Driver2, Driver3, Driver4
-* GPIO13 ← SO on Driver1, Driver2, Driver3, Driver4
-* GPIO12 → SCK on Driver1, Driver2, Driver3, Driver4
+* GPIO11 → SI on all drivers
+* GPIO13 ← SO on all drivers
+* GPIO12 → SCK on all drivers
 Since, I am going to use 4 motors together, I will have 3 shared SPI pins that go to the same ESP32 GPIO as above.
 
 
