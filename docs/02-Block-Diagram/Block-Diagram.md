@@ -15,7 +15,7 @@ Purpose of having block diagram is to help visualise my subsystem so that you ca
 ## Asadbek's Block Diagram 
 Showing my screenshot of the block diagram here
 
-![My Indivial Block diagram ](blockv2.png)
+![My Indivial Block diagram ](picture.drawio.png)
 
 
 ### Impoortant Things to mention are following:
