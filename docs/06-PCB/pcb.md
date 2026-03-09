@@ -1,23 +1,15 @@
 ---
-title: Module's PCB
+title: PCB
 ---
-
 ## Overview
-
-![](pcb_314.png)
-
-**Figure 1:** Front PCB design made in KiCAD
-
-![](front_pcb_314.JPG)
-
-**Figure 2:** Front PCB design made in KiCAD 
+This section is an overview of the PCB design for the Metal detection system for the CropScout.
 
 
-![](back_pcb_314.JPG)
+![Front](pcb_314.png){style width:"350" height:"300;"}
 
-**Figure 3:** Back PCB design made in KiCAD 
+**Figure #1:** Front View of PCB.
 
 
-## Resources
+![Back](front_pcb_314.jpg){style width:"350" height:"300;"}
 
-The project zip file can be found [*here*](Individual subsystem.zip), the pcb as a pdf [*here*](pcb.pdf), and the gerber files [*here*](gerber.zip).
+**Figure #2:** Back View of PCB.
