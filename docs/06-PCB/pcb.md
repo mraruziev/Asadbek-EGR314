@@ -15,8 +15,11 @@ This section is an overview of the PCB design for the Metal detection system for
 **Figure #2:** Back View of PCB.
 
 **Resources**
-![Zip folder](Individual subsystem.zip){style width:"350" height:"300;"}
+Individual subsystem.zip
 
 **Gerber files**
 ![Gerber files](gerber.zip){style width:"350" height:"300;"}
 
+
+The zip folder of the project [*here*](Individual subsystem.zip).
+The gerber files of the project [*here*](gerber.zip).
