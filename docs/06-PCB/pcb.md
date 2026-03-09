@@ -13,3 +13,10 @@ This section is an overview of the PCB design for the Metal detection system for
 ![Back](front_pcb_314.jpg){style width:"350" height:"300;"}
 
 **Figure #2:** Back View of PCB.
+
+**Resources**
+![Zip folder](Individual subsystem.zip){style width:"350" height:"300;"}
+
+**Gerber files**
+![Gerber files](gerber.zip){style width:"350" height:"300;"}
+
