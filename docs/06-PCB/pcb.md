@@ -7,10 +7,15 @@ This section is an overview of the PCB design for the Metal detection system for
 
 ![Front](pcb_314.png){style width:"350" height:"300;"}
 
-**Figure #1:** Front View of PCB.
+**Figure #1:** Full View of PCB.
 
 
 ![Back](front_pcb_314.jpg){style width:"350" height:"300;"}
+
+**Figure #2:** Front View of PCB.
+
+
+![Back](back_pcb_314.jpg){style width:"350" height:"300;"}
 
 **Figure #2:** Back View of PCB.
 
