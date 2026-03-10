@@ -5,19 +5,25 @@ title: PCB
 This section is an overview of the PCB design for the Metal detection system for the CropScout.
 
 
-![Front](pcb_314.png){style width:"350" height:"300;"}
+![Front](egr314_final_pcb.jpg){style width:"350" height:"300;"}
 
 **Figure #1:** Full View of PCB.
 
 
-![Back](front_pcb_314.jpg){style width:"350" height:"300;"}
+![Back](egr_314_front_pcb.jpg){style width:"350" height:"300;"}
 
 **Figure #2:** Front View of PCB.
 
 
-![Back](back_pcb_314.jpg){style width:"350" height:"300;"}
+![Back](egr_314_back_pcb.jpg){style width:"350" height:"300;"}
 
-**Figure #2:** Back View of PCB.
+**Figure #3:** Back View of PCB.
+
+![Back](egr_314_finalpcbdesign.jpg){style width:"350" height:"300;"}
+
+**Figure #4:** 3D View of PCB.
+
+
 
 **Resources**
 Individual subsystem.zip
