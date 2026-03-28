@@ -8,7 +8,9 @@ Following are messages sent and received to my board.
 Also, my subsystem works as a local wireless communication point of contact. Some messages get passed from me as my subsystem will check the message and sent it to the next person.
 The subsystem's ID is "w".
 
-Cristopher sends me a message via Bluetooth, and I verify it. I use it to send it back to him. He forwards it to Jacob. Jacob will tell my board the wheel commands for controlling it.
+Cristopher sends me a message via Bluetooth, and I verify it. I use it to send it back to him. He forwards it to Jacob. Jacob will tell my board the wheel commands for controlling it. Each message will have a destination type instead of being a loop source. It is also broadcasted used for everyone. Messages will be done one by one, as it is a daisy chain
+
+
 
 ### All Subsystem IDs
 
@@ -49,7 +51,6 @@ AZ [Sender] [Receiver] {Data in the message} YB
 
 ## Receiving messages
 
-
 | Section | Bytes amount | Name of the variable | Tpe ID | Example for the code |
 | :---- | :---- | :---- | :---- | :---- |
 | Type ID | 5 | S | char | S |
@@ -58,6 +59,8 @@ AZ [Sender] [Receiver] {Data in the message} YB
 | Terminator value | 1 | DRCTN | char | : |
 | Value | 1 |  | char |  |
 
+
+## Sending messages
 | Section | Bytes amount | Name of the variable | Tpe ID | Example for the code |
 | :---- | :---- | :---- | :---- | :---- |
 | Type ID | 5 | S | char | S |
