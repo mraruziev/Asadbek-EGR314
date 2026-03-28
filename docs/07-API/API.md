@@ -1,0 +1,44 @@
+---
+title: Mobillity API
+---
+
+## Overview
+This page exists to show the API messaging of the Wheel and mobillity subsystem
+Following are messages sent and received to my board.
+Also, my subsystem works as a local wireless communication point of contact. Some messages get passed from me as my subsystem will check the message and sent it to the next person.
+The subsystem's ID is "w".
+
+### All Subsystem IDs
+
+| Subsystem | ID |
+|-----------|-----|
+| HMI | 'h' |
+| Comm | 'c' |
+| Wheel | 'w' |
+| Pressure | 'P' |
+| Arm | 'a' |
+| Metal | 'm' |
+| Temp | 't' |
+
+
+## Received Messages
+| WD:S:F |
+| WD:S:B |
+| WD:S:R |
+| WD:S:L |
+
+
+## Meaning for the messaging:
+- `AZ` = Packet start
+- `h` = HMI subsystem
+- `X` = Broadcast to everyone
+- `ST` = Start
+- `S` = String
+- `Start` = Communication started / LED on
+- `YB` = End of packet
+
+
+## Behaviour check
+- Check whether the format of the message packet is valud
+- Check if it is for wheel subsystem
+- Check destination if not
