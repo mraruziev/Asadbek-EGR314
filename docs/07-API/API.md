@@ -25,12 +25,12 @@ Cristopher sends me a message via Bluetooth, and I verify it. I use it to send i
 
 
 ## Received Messages
-Message framing: 
-AZ [Sender] [Receiver] {Data in the message} YB
-| WD:S:F |
-| WD:S:B |
-| WD:S:R |
-| WD:S:L |
+- Message framing: 
+- AZ [Sender] [Receiver] {Data in the message} YB
+- | WD:S:F |
+- | WD:S:B |
+- | WD:S:R |
+- | WD:S:L |
 
 
 ## Meaning for the messaging:
