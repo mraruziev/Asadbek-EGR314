@@ -8,6 +8,8 @@ Following are messages sent and received to my board.
 Also, my subsystem works as a local wireless communication point of contact. Some messages get passed from me as my subsystem will check the message and sent it to the next person.
 The subsystem's ID is "w".
 
+Cristopher sends me a message via Bluetooth, and I verify it. I use it to send it back to him. He forwards it to Jacob. Jacob will tell my board the wheel commands for controlling it.
+
 ### All Subsystem IDs
 
 | Subsystem | ID |
