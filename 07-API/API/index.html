@@ -1074,10 +1074,9 @@
 
 <h2 id="overview">Overview</h2>
 <p>This page exists to show the API messaging of the Wheel and mobillity subsystem
-Following are messages sent and received to my board.
-Also, my subsystem works as a local wireless communication point of contact. Some messages get passed from me as my subsystem will check the message and sent it to the next person.
+Following are messages sent and received to my board. Some messages get passed from me as my subsystem will check the message and sent it to the next person.
 The subsystem's ID is "w".</p>
-<p>Cristopher sends me a message via Bluetooth, and I verify it. I use it to send it back to him. He forwards it to Jacob. Jacob will tell my board the wheel commands for controlling it. Each message will have a destination type instead of being a loop source. It is also broadcasted used for everyone. Messages will be done one by one, as it is a daisy chain</p>
+<p>Cristopher sends me a message via Bluetooth, and I verify it. I use it to send it back to him. He forwards it to Jacob. Jacob will tell my board the wheel commands for controlling it. Each message will have a destination type instead of being a loop source. It is also broadcasted used for everyone. Messages will be done one by one, as it is a daisy chain.</p>
 <h3 id="all-subsystem-ids">All Subsystem IDs</h3>
 <table>
 <thead>
@@ -1189,6 +1188,7 @@ AZ [Sender] [Receiver] {Data in the message} YB
 </tr>
 </tbody>
 </table>
+<p>Overall message bytes: 12</p>
 <h2 id="sending-messages">Sending messages</h2>
 <table>
 <thead>
@@ -1238,6 +1238,7 @@ AZ [Sender] [Receiver] {Data in the message} YB
 </tr>
 </tbody>
 </table>
+<p>Overall message bytes: 12</p>
 <p>Example: AZhXST:S:Start;YB</p>
 
 
