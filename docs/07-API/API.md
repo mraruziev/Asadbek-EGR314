@@ -22,6 +22,8 @@ The subsystem's ID is "w".
 
 
 ## Received Messages
+Message framing: 
+AZ [Sender] [Receiver] {Data in the message} YB
 | WD:S:F |
 | WD:S:B |
 | WD:S:R |
@@ -42,3 +44,24 @@ The subsystem's ID is "w".
 - Check whether the format of the message packet is valud
 - Check if it is for wheel subsystem
 - Check destination if not
+
+## Receiving messages
+
+
+| Section | Bytes amount | Name of the variable | Tpe ID | Example for the code |
+| :---- | :---- | :---- | :---- | :---- |
+| Type ID | 5 | S | char | S |
+| Variable | 2 | WD | char | WD |
+| Seperator | 1 |  | char | : |
+| Terminator value | 1 | DRCTN | char | : |
+| Value | 1 |  | char |  |
+
+| Section | Bytes amount | Name of the variable | Tpe ID | Example for the code |
+| :---- | :---- | :---- | :---- | :---- |
+| Type ID | 5 | S | char | S |
+| Variable | 1 | : | char | ST |
+| Seperator | 1 | : | char | : |
+| Terminator value | 1 | DRCTN | char | : |
+| Value | 1 | Start | char | Start |
+
+Example: AZhXST:S:Start;YB
