@@ -47,4 +47,4 @@ I am going to use 2 headers for each of my motors as it can not be surface-mount
 
 ## Resources
 
-The schematic as a PDF download is available [*here*](kicad_final.pdf), and the Zip folder of the project [*here*](Design_review.zip).
+The schematic as a PDF download is available [*here*](kicad_final.pdf), and the Zip folder of the project [*here*](Individual subsystem april version.zip).
