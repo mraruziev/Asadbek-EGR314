@@ -6,7 +6,7 @@ title: Module Schematic
 This schematic is designed to support 4 motors, motor drivers, ESP32 subsystem. I will also going to be sending and receiving data through TX and RX of the 8-pin headers. Symbols were sourced from the Digikey website.
 
 
-![schematic](schem.jpg){style width:"350" height:"300;"}
+![schematic](2026-04-10 22.32.01.jpg){style width:"350" height:"300;"}
 **Figure 1:** Showing my schematic
 
 ### Key functional blocks
@@ -47,4 +47,4 @@ I am going to use 2 headers for each of my motors as it can not be surface-mount
 
 ## Resources
 
-The schematic as a PDF download is available [*here*](kicadv1.pdf), and the Zip folder of the project [*here*](Design_review.zip).
+The schematic as a PDF download is available [*here*](kicad_final.pdf), and the Zip folder of the project [*here*](Design_review.zip).
