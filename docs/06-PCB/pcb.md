@@ -19,7 +19,7 @@ This section is an overview of the PCB design for the Metal detection system for
 
 **Figure #3:** Back View of PCB.
 
-![3D](egr_314_finalpcbdesign.jpg){style width:"350" height:"300;"}
+![3D](2026-04-10 22.40.52.jpg){style width:"350" height:"300;"}
 
 **Figure #4:** 3D View of PCB.
 
