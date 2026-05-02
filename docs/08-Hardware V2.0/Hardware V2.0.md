@@ -3,7 +3,7 @@ title: Module Schematic
 ---
 
 ### Overview
-If I were to make new PCB, I would try to use.STL files from the Digikey design, so that before ordering the PCB, I know how my component aligns properly with the footprint. The footprint for the inductor was quite different than the actual size of the inductor I used. I would start my PCB design earlier, as most of my PCB problems were because I started it a bit late.
+If I were to make new PCB, I would try to use.STL files from the Digikey design, so that before ordering the PCB, I know how my component aligns properly with the footprint. The footprint for the inductor was quite different than the actual size of the inductor I used. I would start my PCB design earlier, as most of my PCB problems were because I started it a bit late. 
 
 I would also try to use Cadence next time with its auto-tracing feature, or trace components better on KiCad. My traces were too small, and this could have affected my motor driver. The power was not coming to my motor driver, even if I made 3 PCBs.
 
