@@ -43,7 +43,7 @@ To review the details listed of the material used to construct the subsection, y
 <iframe
   width="800"
   height="450"
-  src="https://www.https://youtu.be/CgNYh9vksoY "
+  src="https://www.youtu.be/CgNYh9vksoY"
   frameborder="0"
   allowfullscreen>
 </iframe>
