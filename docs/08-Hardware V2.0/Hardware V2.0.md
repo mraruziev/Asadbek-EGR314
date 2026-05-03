@@ -1,5 +1,5 @@
 ---
-title: Module Schematic
+title: Module Hardware V2
 ---
 
 ### Overview
