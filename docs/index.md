@@ -31,7 +31,7 @@ for<br>
 ![Team picture](Team_photo.jpg)
 >From left ro right: Cale Yuen, Cristopher Gutierrez, Jacob Alger, Asadbek Ruziev, Aaron Kiem, Isaiah Johnston
 
-### My Contribution
+### My Contribution 
 
 * Our team is focused on making land based explorative rover project that drives to different places and uses its sensors to perform measurements.
 * I am responsible for mobility of the rover using ESP32. I will be using 4 motors with wheel attached. Motors will be working through the motor driver to move the robot from the distance through WiFi.
