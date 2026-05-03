@@ -40,13 +40,7 @@ To review the details listed of the material used to construct the subsection, y
 
 ## Showcase Video Demo
 
-<iframe
-  width="800"
-  height="450"
-  src="https://youtu.be/CgNYh9vksoY"
-  frameborder="0"
-  allowfullscreen>
-</iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CgNYh9vksoY?si=5lFRXKqbXAz6XXHL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 To review the details of the data sheet, hyperlinks are provided below: <br>
 [1. Requirements](https://mraruziev.github.io/Asadbek-EGR314/01-Requirements/Requirements/) <br> 
