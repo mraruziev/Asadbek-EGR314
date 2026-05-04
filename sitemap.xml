@@ -41,11 +41,6 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://mraruziev.github.io/Asadbek-EGR314/08-Hardware%20V2.0/Hardware%20V2.0/</loc>
-         <lastmod>2026-05-04</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://mraruziev.github.io/Asadbek-EGR314/Appendix/</loc>
          <lastmod>2026-05-04</lastmod>
          <changefreq>daily</changefreq>
@@ -67,6 +62,11 @@
     </url>
     <url>
          <loc>https://mraruziev.github.io/Asadbek-EGR314/Appendix/05-Resources/Resources/</loc>
+         <lastmod>2026-05-04</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://mraruziev.github.io/Asadbek-EGR314/Appendix/06-Hardware%20V2.0/Hardware%20V2.0/</loc>
          <lastmod>2026-05-04</lastmod>
          <changefreq>daily</changefreq>
     </url>

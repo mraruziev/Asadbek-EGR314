@@ -15,6 +15,8 @@
         <link rel="prev" href="../../04-Lessons%20Learned/Lessons%20learned/">
       
       
+        <link rel="next" href="../../06-Hardware%20V2.0/Hardware%20V2.0/">
+      
       
       <link rel="icon" href="../../../static/logo314.png">
       <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.18">
@@ -343,26 +345,6 @@
     
   
   07 API
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="../../../08-Hardware%20V2.0/Hardware%20V2.0/" class="md-tabs__link">
-          
-  
-    
-  
-  08 Hardware V2.0
 
         </a>
       </li>
@@ -788,52 +770,6 @@
       
   
   
-  
-  
-    
-    
-      
-        
-      
-    
-    
-      
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-    <a href="../../../08-Hardware%20V2.0/Hardware%20V2.0/" class="md-nav__link">
-      
-  
-  <span class="md-ellipsis">
-    08 Hardware V2.0
-  </span>
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
     
   
   
@@ -843,6 +779,8 @@
       
         
           
+        
+      
         
       
         
@@ -868,7 +806,7 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" checked="">
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" checked="">
         
           
           
@@ -884,14 +822,14 @@
             </a>
             
               
-              <label class="md-nav__link " for="__nav_10" id="__nav_10_label" tabindex="">
+              <label class="md-nav__link " for="__nav_9" id="__nav_9_label" tabindex="">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_10">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_9">
             <span class="md-nav__icon md-icon"></span>
             Appendix
           </label>
@@ -1065,10 +1003,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10_5" checked="">
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_5" checked="">
         
           
-          <label class="md-nav__link" for="__nav_10_5" id="__nav_10_5_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_9_5" id="__nav_9_5_label" tabindex="0">
             
   
   <span class="md-ellipsis">
@@ -1079,8 +1017,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_10_5_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_10_5">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_9_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_9_5">
             <span class="md-nav__icon md-icon"></span>
             05 Resources
           </label>
@@ -1152,6 +1090,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#individual-motor-code" class="md-nav__link">
+    <span class="md-ellipsis">
+      Individual motor code
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1163,6 +1110,53 @@
             
           </ul>
         </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../06-Hardware%20V2.0/Hardware%20V2.0/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    06 Hardware V2.0
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
       
     </li>
   
@@ -1218,6 +1212,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#individual-motor-code" class="md-nav__link">
+    <span class="md-ellipsis">
+      Individual motor code
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1250,6 +1253,83 @@
 <p>Use following commands on terminal, once you open the folder on VS code and set up the mpremote: </p>
 <p>To use the ESP32, type in the terminal: mpremote connect auto
 To program ESP32 type: mpremote fs ls -r</p>
+<hr>
+<h2 id="individual-motor-code">Individual motor code</h2>
+<div class="highlight"><pre><span></span><code>import machine
+import time
+
+SCK_PIN = 12
+SI_PIN = 11
+SO_PIN = 13
+
+# From your schematic
+CS_FRONT_LEFT  = 5   # CSN1
+CS_FRONT_RIGHT = 6    # CSN2
+CS_BACK_LEFT   = 7    # CSN3
+CS_BACK_RIGHT  = 8    # CSN4
+
+WR_FORWARD = 0xFF
+WR_REVERSE = 0xFD
+WR_STOP    = 0xF8
+
+spi = machine.SPI(
+    2,
+    baudrate=1000000,
+    polarity=0,
+    phase=1,
+    sck=machine.Pin(SCK_PIN),
+    mosi=machine.Pin(SI_PIN),
+    miso=machine.Pin(SO_PIN),
+)
+
+fl = machine.Pin(CS_FRONT_LEFT, machine.Pin.OUT, value=1)
+fr = machine.Pin(CS_FRONT_RIGHT, machine.Pin.OUT, value=1)
+bl = machine.Pin(CS_BACK_LEFT, machine.Pin.OUT, value=1)
+br = machine.Pin(CS_BACK_RIGHT, machine.Pin.OUT, value=1)
+
+time.sleep(0.1)
+
+def send_one(cs_pin, cmd_byte):
+    cs_pin.value(0)
+    time.sleep_us(2)
+    spi.write(bytearray([cmd_byte]))
+    time.sleep_us(2)
+    cs_pin.value(1)
+    time.sleep_us(2)
+
+def stop_all():
+    for cs in (fl, fr, bl, br):
+        send_one(cs, WR_STOP)
+
+def move_forward():
+    send_one(fl, WR_FORWARD)
+    send_one(fr, WR_REVERSE)
+    send_one(bl, WR_FORWARD)
+    send_one(br, WR_REVERSE)
+
+def move_backward():
+    send_one(fl, WR_REVERSE)
+    send_one(fr, WR_FORWARD)
+    send_one(bl, WR_REVERSE)
+    send_one(br, WR_FORWARD)
+
+print("4 motors ready")
+
+try:
+    while True:
+        move_forward()
+        print("forward")
+        time.sleep(2)
+
+        move_backward()
+        print("backward")
+        time.sleep(2)
+
+except KeyboardInterrupt:
+    stop_all()
+    print("Program stopped")
+</code></pre></div>
+<hr>
 
 
 
@@ -1303,6 +1383,22 @@ To program ESP32 type: mpremote fs ls -r</p>
             </div>
           </a>
         
+        
+          
+          <a href="../../06-Hardware%20V2.0/Hardware%20V2.0/" class="md-footer__link md-footer__link--next" aria-label="Next: Module Hardware V2">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Module Hardware V2
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"></path></svg>
+            </div>
+          </a>
         
       </nav>
     
