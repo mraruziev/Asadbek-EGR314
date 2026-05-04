@@ -12,5 +12,5 @@ To run it, make sure to use either pymaker or mpremote on the VS code. I would h
 
 Use following commands on terminal, once you open the folder on VS code and set up the mpremote: 
 
-To use the ESP32: mpremote connect auto
-To program ESP32: mpremote fs ls -r
+To use the ESP32, type in the terminal: mpremote connect auto
+To program ESP32 type: mpremote fs ls -r
