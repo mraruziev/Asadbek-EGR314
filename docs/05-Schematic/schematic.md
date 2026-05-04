@@ -6,7 +6,7 @@ title: Module Schematic
 This schematic is designed to support 4 motors, motor drivers, ESP32 subsystem. I will also going to be sending and receiving data through TX and RX of the 8-pin headers. Symbols were sourced from the Digikey website.
 
 
-![schematic](2026-04-10 22.32.01.jpg){style width:"350" height:"300;"}
+![schematic](final_schematic.png){style width:"350" height:"300;"}
 **Figure 1:** Showing my schematic
 
 ### Key functional blocks
