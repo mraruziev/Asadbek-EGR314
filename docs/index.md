@@ -9,13 +9,13 @@ tags:
 as part of<br>
 <font size= "8"> Exploration Device Project</font><br>
 for<br>
-<font size= "5"> Crop S.C.O.U.T. </font><br>
+<font size= "5"> Crop S.C.O.U.T.S. </font><br>
 
 **Update: April 10, 2026**
 =======
 <font size= "5"> Team 202 </font><br>
 
-**Submission: April, 10, 2026**
+**Submission: May, 4, 2026**
 </center>
 
 ## Introduction
