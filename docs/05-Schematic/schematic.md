@@ -16,6 +16,7 @@ This schematic is designed to support 4 motors, motor drivers, ESP32 subsystem. 
 * UART daisy chain interface 
 * USB for programming
 * Boot, reset buttons
+* Extra pins for other potential usage
 ESP32 microcontroller is included in this schematic.
 
 
@@ -25,24 +26,29 @@ ESP32 microcontroller is included in this schematic.
 * DIR → direction
 * DIS → enable/disable
 * VSO 
-I am also going to use 4 motor drivers. The motor driver is surface mount H-bridge. Out1 and Out2 allows to control the speed and input comes from the GPIO pins of ESP32, while output goes to motors.
+I am also going to use 4 motor drivers. The motor driver is a surface-mount H-bridge. Out1 and Out2 allow control of the speed, and input comes from the GPIO pins of the ESP32, while output goes to the motors.
 
-## Shared SPI
+## 3. Shared SPI
 * GPIO11 → SI on all drivers
 * GPIO13 ← SO on all drivers
 * GPIO12 → SCK on all drivers
-Since, I am going to use 4 motors together, I will have 3 shared SPI pins that go to the same ESP32 GPIO as above.
+Since I am going to use 4 motors together, I will have 3 shared SPI pins that go to the same ESP32 GPIO as above.
 
+## 4. UART
+* TX1
+* RX1 
+Since UART0 - TX0, RX0 gave me problems during the daisy chain, I updated the schematic to swap UART pins.
 
-## 3. Motors
-I am going to use 2 headers for each of my motors as it can not be surface-mount. In total, I will be using 4 motors that will be working with 4 motor drivers.
+## 5. Motors
+I am going to use 2 headers for each of my motors, as they can not be surface-mount. In total, I will be using 4 motors that will be working with 4 motor drivers.
 * 200 RPM 3-6V DC Gearmotor
 
 
-## 4. Power Management
+## 6. Power Management
 * 9V barrel jack for motors
 * LM2575D 3.3 Voltage regulator
 * Fuse for the barrel jack for safety
+* The input power can be anywhere from 5V to 40 volts.
 
 
 ## Resources
