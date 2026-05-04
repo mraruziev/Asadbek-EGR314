@@ -11,8 +11,7 @@ as part of<br>
 for<br>
 <font size= "5"> Crop S.C.O.U.T.S. </font><br>
 
-**Update: April 10, 2026**
-=======
+
 <font size= "5"> Team 202 </font><br>
 
 **Submission: May, 4, 2026**
