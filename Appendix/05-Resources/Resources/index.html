@@ -1255,79 +1255,79 @@
 To program ESP32 type: mpremote fs ls -r</p>
 <hr>
 <h2 id="individual-motor-code">Individual motor code</h2>
-<div class="highlight"><pre><span></span><code>import machine
-import time
+<div class="highlight"><span class="filename">main.py</span><pre><span></span><code><span class="kn">import</span> <span class="nn">machine</span>
+<span class="kn">import</span> <span class="nn">time</span>
 
-SCK_PIN = 12
-SI_PIN = 11
-SO_PIN = 13
+<span class="n">SCK_PIN</span> <span class="o">=</span> <span class="mi">12</span>
+<span class="n">SI_PIN</span> <span class="o">=</span> <span class="mi">11</span>
+<span class="n">SO_PIN</span> <span class="o">=</span> <span class="mi">13</span>
 
-# From your schematic
-CS_FRONT_LEFT  = 5   # CSN1
-CS_FRONT_RIGHT = 6    # CSN2
-CS_BACK_LEFT   = 7    # CSN3
-CS_BACK_RIGHT  = 8    # CSN4
+<span class="c1"># From your schematic</span>
+<span class="n">CS_FRONT_LEFT</span>  <span class="o">=</span> <span class="mi">5</span>   <span class="c1"># CSN1</span>
+<span class="n">CS_FRONT_RIGHT</span> <span class="o">=</span> <span class="mi">6</span>    <span class="c1"># CSN2</span>
+<span class="n">CS_BACK_LEFT</span>   <span class="o">=</span> <span class="mi">7</span>    <span class="c1"># CSN3</span>
+<span class="n">CS_BACK_RIGHT</span>  <span class="o">=</span> <span class="mi">8</span>    <span class="c1"># CSN4</span>
 
-WR_FORWARD = 0xFF
-WR_REVERSE = 0xFD
-WR_STOP    = 0xF8
+<span class="n">WR_FORWARD</span> <span class="o">=</span> <span class="mh">0xFF</span>
+<span class="n">WR_REVERSE</span> <span class="o">=</span> <span class="mh">0xFD</span>
+<span class="n">WR_STOP</span>    <span class="o">=</span> <span class="mh">0xF8</span>
 
-spi = machine.SPI(
-    2,
-    baudrate=1000000,
-    polarity=0,
-    phase=1,
-    sck=machine.Pin(SCK_PIN),
-    mosi=machine.Pin(SI_PIN),
-    miso=machine.Pin(SO_PIN),
-)
+<span class="n">spi</span> <span class="o">=</span> <span class="n">machine</span><span class="o">.</span><span class="n">SPI</span><span class="p">(</span>
+    <span class="mi">2</span><span class="p">,</span>
+    <span class="n">baudrate</span><span class="o">=</span><span class="mi">1000000</span><span class="p">,</span>
+    <span class="n">polarity</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span>
+    <span class="n">phase</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span>
+    <span class="n">sck</span><span class="o">=</span><span class="n">machine</span><span class="o">.</span><span class="n">Pin</span><span class="p">(</span><span class="n">SCK_PIN</span><span class="p">),</span>
+    <span class="n">mosi</span><span class="o">=</span><span class="n">machine</span><span class="o">.</span><span class="n">Pin</span><span class="p">(</span><span class="n">SI_PIN</span><span class="p">),</span>
+    <span class="n">miso</span><span class="o">=</span><span class="n">machine</span><span class="o">.</span><span class="n">Pin</span><span class="p">(</span><span class="n">SO_PIN</span><span class="p">),</span>
+<span class="p">)</span>
 
-fl = machine.Pin(CS_FRONT_LEFT, machine.Pin.OUT, value=1)
-fr = machine.Pin(CS_FRONT_RIGHT, machine.Pin.OUT, value=1)
-bl = machine.Pin(CS_BACK_LEFT, machine.Pin.OUT, value=1)
-br = machine.Pin(CS_BACK_RIGHT, machine.Pin.OUT, value=1)
+<span class="n">fl</span> <span class="o">=</span> <span class="n">machine</span><span class="o">.</span><span class="n">Pin</span><span class="p">(</span><span class="n">CS_FRONT_LEFT</span><span class="p">,</span> <span class="n">machine</span><span class="o">.</span><span class="n">Pin</span><span class="o">.</span><span class="n">OUT</span><span class="p">,</span> <span class="n">value</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">fr</span> <span class="o">=</span> <span class="n">machine</span><span class="o">.</span><span class="n">Pin</span><span class="p">(</span><span class="n">CS_FRONT_RIGHT</span><span class="p">,</span> <span class="n">machine</span><span class="o">.</span><span class="n">Pin</span><span class="o">.</span><span class="n">OUT</span><span class="p">,</span> <span class="n">value</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">bl</span> <span class="o">=</span> <span class="n">machine</span><span class="o">.</span><span class="n">Pin</span><span class="p">(</span><span class="n">CS_BACK_LEFT</span><span class="p">,</span> <span class="n">machine</span><span class="o">.</span><span class="n">Pin</span><span class="o">.</span><span class="n">OUT</span><span class="p">,</span> <span class="n">value</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">br</span> <span class="o">=</span> <span class="n">machine</span><span class="o">.</span><span class="n">Pin</span><span class="p">(</span><span class="n">CS_BACK_RIGHT</span><span class="p">,</span> <span class="n">machine</span><span class="o">.</span><span class="n">Pin</span><span class="o">.</span><span class="n">OUT</span><span class="p">,</span> <span class="n">value</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
 
-time.sleep(0.1)
+<span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mf">0.1</span><span class="p">)</span>
 
-def send_one(cs_pin, cmd_byte):
-    cs_pin.value(0)
-    time.sleep_us(2)
-    spi.write(bytearray([cmd_byte]))
-    time.sleep_us(2)
-    cs_pin.value(1)
-    time.sleep_us(2)
+<span class="k">def</span> <span class="nf">send_one</span><span class="p">(</span><span class="n">cs_pin</span><span class="p">,</span> <span class="n">cmd_byte</span><span class="p">):</span>
+    <span class="n">cs_pin</span><span class="o">.</span><span class="n">value</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
+    <span class="n">time</span><span class="o">.</span><span class="n">sleep_us</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
+    <span class="n">spi</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="nb">bytearray</span><span class="p">([</span><span class="n">cmd_byte</span><span class="p">]))</span>
+    <span class="n">time</span><span class="o">.</span><span class="n">sleep_us</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
+    <span class="n">cs_pin</span><span class="o">.</span><span class="n">value</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+    <span class="n">time</span><span class="o">.</span><span class="n">sleep_us</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
 
-def stop_all():
-    for cs in (fl, fr, bl, br):
-        send_one(cs, WR_STOP)
+<span class="k">def</span> <span class="nf">stop_all</span><span class="p">():</span>
+    <span class="k">for</span> <span class="n">cs</span> <span class="ow">in</span> <span class="p">(</span><span class="n">fl</span><span class="p">,</span> <span class="n">fr</span><span class="p">,</span> <span class="n">bl</span><span class="p">,</span> <span class="n">br</span><span class="p">):</span>
+        <span class="n">send_one</span><span class="p">(</span><span class="n">cs</span><span class="p">,</span> <span class="n">WR_STOP</span><span class="p">)</span>
 
-def move_forward():
-    send_one(fl, WR_FORWARD)
-    send_one(fr, WR_REVERSE)
-    send_one(bl, WR_FORWARD)
-    send_one(br, WR_REVERSE)
+<span class="k">def</span> <span class="nf">move_forward</span><span class="p">():</span>
+    <span class="n">send_one</span><span class="p">(</span><span class="n">fl</span><span class="p">,</span> <span class="n">WR_FORWARD</span><span class="p">)</span>
+    <span class="n">send_one</span><span class="p">(</span><span class="n">fr</span><span class="p">,</span> <span class="n">WR_REVERSE</span><span class="p">)</span>
+    <span class="n">send_one</span><span class="p">(</span><span class="n">bl</span><span class="p">,</span> <span class="n">WR_FORWARD</span><span class="p">)</span>
+    <span class="n">send_one</span><span class="p">(</span><span class="n">br</span><span class="p">,</span> <span class="n">WR_REVERSE</span><span class="p">)</span>
 
-def move_backward():
-    send_one(fl, WR_REVERSE)
-    send_one(fr, WR_FORWARD)
-    send_one(bl, WR_REVERSE)
-    send_one(br, WR_FORWARD)
+<span class="k">def</span> <span class="nf">move_backward</span><span class="p">():</span>
+    <span class="n">send_one</span><span class="p">(</span><span class="n">fl</span><span class="p">,</span> <span class="n">WR_REVERSE</span><span class="p">)</span>
+    <span class="n">send_one</span><span class="p">(</span><span class="n">fr</span><span class="p">,</span> <span class="n">WR_FORWARD</span><span class="p">)</span>
+    <span class="n">send_one</span><span class="p">(</span><span class="n">bl</span><span class="p">,</span> <span class="n">WR_REVERSE</span><span class="p">)</span>
+    <span class="n">send_one</span><span class="p">(</span><span class="n">br</span><span class="p">,</span> <span class="n">WR_FORWARD</span><span class="p">)</span>
 
-print("4 motors ready")
+<span class="nb">print</span><span class="p">(</span><span class="s2">"4 motors ready"</span><span class="p">)</span>
 
-try:
-    while True:
-        move_forward()
-        print("forward")
-        time.sleep(2)
+<span class="k">try</span><span class="p">:</span>
+    <span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
+        <span class="n">move_forward</span><span class="p">()</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">"forward"</span><span class="p">)</span>
+        <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
 
-        move_backward()
-        print("backward")
-        time.sleep(2)
+        <span class="n">move_backward</span><span class="p">()</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">"backward"</span><span class="p">)</span>
+        <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
 
-except KeyboardInterrupt:
-    stop_all()
-    print("Program stopped")
+<span class="k">except</span> <span class="ne">KeyboardInterrupt</span><span class="p">:</span>
+    <span class="n">stop_all</span><span class="p">()</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">"Program stopped"</span><span class="p">)</span>
 </code></pre></div>
 <hr>
 
