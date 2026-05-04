@@ -1,16 +1,9 @@
-This is a template to help you get started with the Individual Datasheet GitHub Report. Use this template to help guide your team through the initial setup process. You will see ways to get results. When there are multiple methods, choose the method that works for you. There could be other ways to accomplish the same thing, but they are not as guaranteed to work.
+This is my individual datasheet for EGR 314 class at ASU Poly, Spring 2026, and I am part of the SCOUTS Team
 
-You <ins>will need to add and modify files for the different individual assignments. **THIS template is <ins>ALMOST outlines</ins>** what you will need to get you the External Review.
-# Remove ALL ITEMS not current in the Appendix before submitting report Check Points!
-The four items currently there are placeholders and could serve as possible resources.
+The PCB board works with an ESP32-S3-WROOM-1, drives 4 DC motors, drives 2 LEDs and 2 buttons, and handles daisy-chain UART and MQTT communication with the rest of the team's subsystems. Input power can be anywhere from 5V up to 40V, and it gets regulated down to 3.3V by a LM2596S-3.3 switching regulator and also gets regulated to 5.5 V by a LM2575-5.5 switching regulator
 
-## Tips if the template does not initially publish/update correctly:
-If, after checking these [settings](https://embedded-systems-design.github.io/fork-report-website/#settings-to-check/), you often find that renaming the workflow file initiates builds (for whatever reason).
+The site covers requirements, block diagram, component selection, BOM, schematic, PCB, and the full subsystem API.
 
-Either on your computer or on the GitHub website,
-1. Navigate to the files of your repository in the .github/workflows/.
-1. Rename **pages.yml** to something else (**main.yml** worked for me).
-1 Stage, commit, and push your files.
-1. Check the "actions" tab (found in your repository's main GitHub page) to see that your commit is triggering the **"mkdocs-build"** action.
-A video detailing the steps to check your build process can be viewed [here.](https://www.youtube.com/watch?v=8EgFkG2HHxM/) 
+Link to the live site: [chvisto.github.io](https://mraruziev.github.io/Asadbek-EGR314/)
 
+Link to the team website: https://egr314-s-2026-202.github.io/
