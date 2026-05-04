@@ -1,16 +1,7 @@
----
-title: Module Bill of Materials
-tags:
-- tag1
-- tag2
----
-**Overview**  
-
-
-## Bill of Materials
-
   
+**Overview**  
 **Half of the items below will be ordered from Digikey, and the other half is available from the Peralta labs.** 
+
 **The total would be around $47.98**
 
 Table 1: Mobility Subsystem Bill of Materials
@@ -29,8 +20,8 @@ Table 1: Mobility Subsystem Bill of Materials
 | Barrel\_Jack\_Switch | 1 | 0.71 | 0.71 | Same Sky (Formerly CUI Devices) | CP-102AH-ND | Digikey | [Link](https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/PJ-102AH/408448?s=N4IgTCBcDaIAoCkC0BGADGAggCRAXQF8g) | [Link](https://www.sameskydevices.com/product/resource/pj-102ah.pdf) | J1 |
 | Connector In | 1 | 0.99 | 0.99 | Würth Elektronik | 732-5395-ND | Digikey | [Link](https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/61200821621/4846916) | [Link](https://www.we-online.com/components/products/datasheet/61200821621.pdf) | J2 |
 | Connector Out | 1 | 0.99 | 0.99 | Würth Elektronik | 732-5395-ND | Digikey | [Link](https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/61200821621/4846916) | [Link](https://www.we-online.com/components/products/datasheet/61200821621.pdf) | J3 |
-| Left motors | 2 | 2.95 | 5.9 | Adafruit Industries LLC | 1528-2589-ND | Digikey | [Link](https://www.digikey.com/en/products/detail/adafruit-industries-llc/3777/8687221) | [Link](https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/713/3777_Web.pdf) | J4,J5 |
-| Right motors | 2 | 2.95 | 5.9 | Adafruit Industries LLC | 1528-2589-ND | Digikey | [Link](https://www.digikey.com/en/products/detail/adafruit-industries-llc/3777/8687221) | [Link](https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/713/3777_Web.pdf) | J6,J7 |
+| Left motors | 2 | 2.95 | 5.9 | Geartisan | 766330627149 | Amazon | [Link](https://a.co/d/0cYP6F4E) | [Link](https://a.co/d/0cYP6F4E) | J4,J5 |
+| Right motors | 2 | 2.95 | 5.9 | Greartisan | 766330627149 | Amazon | [Link](https://a.co/d/0cYP6F4E) | [Link](https://a.co/d/0cYP6F4E) | J6,J7 |
 | 9V battery header | 1 | 2.50 | 2.50 | Bud Industries | 377-2053-ND | Digikey | [Link](https://www.digikey.com/en/products/detail/bud-industries/HH-3634/3681242?gclsrc=aw.ds&gad_source=1&gad_campaignid=20509817906&gbraid=0AAAAADrbLlhOhvUcyGUOynAPZHGAklBV-&gclid=Cj0KCQiAk6rNBhCxARIsAN5mQLvzBlwsa1dLNr3ivJTelbQRTphzKI39oqwbYHyGBo4Kv6clkGk5ld4aAgFREALw_wcB) | [Link](https://www.budind.com/wp-content/uploads/2019/12/hb3634.pdf) | J8 |
 | USB\_B\_Micro | 1 | 0.78 | 0.78 | GCT | 2073-USB3131-30-0230-ACT-ND | Digikey | [Link](https://www.digikey.com/en/products/detail/gct/USB3131-30-0230-A/9859642) | [Link](https://gct.co/files/specs/usb3131-spec.pdf) | J9 |
 | 220uH | 1 | 0.50 | 0.50 | Murata Power Solutions Inc. | 811-1159-2-ND | Digikey | [Link](http://embedded-systems-design.bitbucket.io/314/labs/switching-power-supply/) | [Link](https://www.bourns.com/docs/Product-Datasheets/RLB9012.pdf) | L1 |
@@ -41,13 +32,3 @@ Table 1: Mobility Subsystem Bill of Materials
 | TestPoint | 4 |  |  |  |  |  |  |  | TP1,TP2,TP3,TP4 |
 | LM2575D2T-3.3R4G | 1 | 2.16 | 2.16 | onsemi | LM2575D2T-3.3R4GOSTR-ND | Digikey | [Link](https://www.digikey.com/en/products/detail/onsemi/LM2575D2T-3-3R4G/1476688) | [Link](https://www.onsemi.com/pdf/datasheet/lm2575-d.pdf) | U3 |
 | ESP32-S3-WROOM-1 | 1 | 5.06 | 5.06 | Espressif systems | ESP32-S3-WROOM-1-N4 | Digikey | [Link](https://www.digikey.com/en/products/detail/espressif-systems/ESP32-S3-WROOM-1-N4/16162639)  | [Link](https://documentation.espressif.com/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf) | U5 |
-
-
-
-
-
-* Note: You would need to scroll to the right to be able to see the content fully.
-
-## Resource
-
-The Bill of Material as a PDF download is available [*here*](BOM EGR314.pdf).
