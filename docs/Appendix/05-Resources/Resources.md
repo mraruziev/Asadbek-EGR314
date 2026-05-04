@@ -19,7 +19,7 @@ To program ESP32 type: mpremote fs ls -r
 ---
 ## Individual motor code
 
-```
+```python title="main.py"
 import machine
 import time
 
