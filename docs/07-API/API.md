@@ -83,15 +83,6 @@ Receives the direction command from the HMI D-Pad and drives the wheels accordin
 
 
 
-## Meaning for the messaging:
-- `AZ` = Packet start
-- `h` = HMI subsystem
-- `X` = Broadcast to everyone
-- `ST` = Start
-- `S` = String
-- `Start` = Communication started / LED on
-- `YB` = End of packet
-
 
 ## Behaviour check
 - Check whether the format of the message packet is valid
