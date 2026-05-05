@@ -36,3 +36,7 @@ Our project was successful, with most of our planned project requirements being 
 4. Make sure to include twice more components from Digikey than you actually need for your PCB. You might need to resolder few components for your PCB and having extra parts like LEDs, buttons, motor drivers is crucial.
 
 5. Learn surface mount soldering by practising on cheap boards from Amazon. That way you will be well prepapred before your PCB arrives.
+
+## Microcontroller/Module Startup Tip
+I would suggest uploading MicroPython to your ESP32 before connecting and programming. This would troubleshoot any potential issues you might face when connecting to your ESP32.
+
