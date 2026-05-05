@@ -6,15 +6,17 @@ title: Module Lessons
 
 
 ## Project code
-Following is my Zip for the code available for download from [*here*](Motor subsystem.zip).
+* Following is my Zip for the code available for download from [*here*](Motor subsystem.zip).
 
-To run it, make sure to use either pymaker or mpremote on the VS code. I would highly suggest using mpremote to download the code to the ESP32. To do that, download the mpremote library from VS code.
+* To run it, make sure to use either pymaker or mpremote on the VS code. I would highly suggest using mpremote to download the code to the ESP32. To do that, download the mpremote library from VS code.
 
-Use following commands on terminal, once you open the folder on VS code and set up the mpremote: 
+## Use following commands on terminal, once you open the folder on VS code and set up the mpremote: 
 
-To use the ESP32, type in the terminal: mpremote connect auto
-To program ESP32 type: mpremote fs ls -r
+* To use the ESP32, type in the terminal: mpremote connect auto
+* To program ESP32 type: mpremote fs ls -r
 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CgNYh9vksoY?si=5lFRXKqbXAz6XXHL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ---
 ## Individual motor code
