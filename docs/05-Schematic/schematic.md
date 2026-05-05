@@ -57,4 +57,4 @@ I am going to use 2 headers for each of my motors, as they can not be surface-mo
 
 ## Resources
 
-The schematic as a PDF download is available [*here*](kicad_final.pdf), and the Zip folder of the project [*here*](Individual subsystem april version.zip).
+The schematic as a PDF download is available [*here*](Final_schematic.pdf), and the Zip folder of the project [*here*](EGR314-kicad-final.zip).
