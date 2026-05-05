@@ -47,5 +47,5 @@ To review the details of the data sheet, hyperlinks are provided below: <br>
 [3. BOM](https://mraruziev.github.io/Asadbek-EGR314/04-BOM/BOM/) <br> 
 [4. Component Selection](https://mraruziev.github.io/Asadbek-EGR314/03-Component-Selection/Component-Selection/) <br> 
 [5. Schematic](https://mraruziev.github.io/Asadbek-EGR314/05-Schematic/schematic/) <br> 
-[6. PCB Design](https://mraruziev.github.io/Asadbek-EGR314/Appendix/)  <br>
+[6. PCB Design](https://mraruziev.github.io/Asadbek-EGR314/06-PCB/pcb/)  <br>
 [7. Appendix](https://mraruziev.github.io/Asadbek-EGR314/Appendix/) <br>
