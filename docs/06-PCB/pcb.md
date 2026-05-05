@@ -2,7 +2,7 @@
 title: PCB
 ---
 ## Overview
-This section is an overview of the PCB design for the Metal detection system for the CropScout.
+This section is an overview of the PCB design for the Metal detection system for the CropScout. Some of the footprints are from the Digikey.
 
 
 ![View](full_PCB.png){style width:"350" height:"300;"}
@@ -19,7 +19,7 @@ This section is an overview of the PCB design for the Metal detection system for
 
 **Figure #4:** Back View of PCB.
 
-![Back](2026-04-10 22.29.06.jpg){style width:"350" height:"300;"}
+![Back](3dview.png){style width:"350" height:"300;"}
 
 **Figure #3:** 3D View of PCB.
 
@@ -27,8 +27,6 @@ This section is an overview of the PCB design for the Metal detection system for
 
 **Resources**
 Individual subsystem.zip
-
-
 
 The zip folder of the project [*here*](Individual subsystem april version.zip).
 The gerber files of the project [*here*](gerber.zip).
