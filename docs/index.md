@@ -43,7 +43,7 @@ To review the details listed of the material used to construct the subsection, y
 
 To review the details of the data sheet, hyperlinks are provided below: <br>
 [1. Requirements](https://mraruziev.github.io/Asadbek-EGR314/01-Requirements/Requirements/) <br> 
-[2. Block Diagram](https://mraruziev.github.io/Asadbek-EGR314/02-Block-Diagram/Block-Diagram/)) <br> 
+[2. Block Diagram](https://mraruziev.github.io/Asadbek-EGR314/02-Block-Diagram/Block-Diagram/) <br> 
 [3. BOM](https://mraruziev.github.io/Asadbek-EGR314/04-BOM/BOM/) <br> 
 [4. Component Selection](https://mraruziev.github.io/Asadbek-EGR314/03-Component-Selection/Component-Selection/) <br> 
 [5. Schematic](https://mraruziev.github.io/Asadbek-EGR314/05-Schematic/schematic/) <br> 
