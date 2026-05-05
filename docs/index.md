@@ -48,4 +48,8 @@ To review the details of the data sheet, hyperlinks are provided below: <br>
 [4. Component Selection](https://mraruziev.github.io/Asadbek-EGR314/03-Component-Selection/Component-Selection/) <br> 
 [5. Schematic](https://mraruziev.github.io/Asadbek-EGR314/05-Schematic/schematic/) <br> 
 [6. PCB Design](https://mraruziev.github.io/Asadbek-EGR314/06-PCB/pcb/)  <br>
-[7. Appendix](https://mraruziev.github.io/Asadbek-EGR314/Appendix/) <br>
+[7. API](https://mraruziev.github.io/Asadbek-EGR314/07-API/API/) <br>
+[8. Schematic](https://mraruziev.github.io/Asadbek-EGR314/08-Resources/Resources/) <br> 
+[9. Reflections](https://mraruziev.github.io/Asadbek-EGR314/09-Lessons%20Learned/Lessons%20learned/)  <br>
+[10. Hardware V2.0](https://mraruziev.github.io/Asadbek-EGR314/10-Hardware%20V2.0/Hardware%20V2.0/) <br>
+[11. Appendix](https://mraruziev.github.io/Asadbek-EGR314/Appendix/) <br>
