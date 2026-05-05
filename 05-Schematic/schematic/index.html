@@ -1169,7 +1169,7 @@
   <h1>Module Schematic</h1>
 
 <h3 id="overview">Overview</h3>
-<p>This schematic is designed to support 4 motors, motor drivers, ESP32 subsystem. I will also going to be sending and receiving data through TX and RX of the 8-pin headers. Symbols were sourced from the Digikey website.</p>
+<p>This schematic is designed to support 4 motors, motor drivers, ESP32 subsystem. I will also going to be sending and receiving data through TX and RX of the 8-pin headers. Some symbols were sourced from the Digikey website, while few others were from the KiCad library.</p>
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../final_schematic.png" data-desc-position="bottom"><img alt="schematic" height:_300_="height:&quot;300;&quot;" src="../final_schematic.png" style="style" width:_350_="width:&quot;350&quot;"></a>
 <strong>Figure 1:</strong> Showing my schematic</p>
 <h3 id="key-functional-blocks">Key functional blocks</h3>
@@ -1185,8 +1185,8 @@ ESP32 microcontroller is included in this schematic.</li>
 <h2 id="2-motor-driver">2. Motor Driver</h2>
 <ul>
 <li>SPI configuration (SCLK, SDI, SDO, NSCS)</li>
-<li>PWM → PWM input for speed</li>
-<li>DIR → direction</li>
+<li>PWM → PWM is not going to be used since it is SPI so it will be grounded</li>
+<li>DIR → direction grounded (not used)</li>
 <li>DIS → enable/disable</li>
 <li>VSO 
 I am also going to use 4 motor drivers. The motor driver is a surface-mount H-bridge. Out1 and Out2 allow control of the speed, and input comes from the GPIO pins of the ESP32, while output goes to the motors.</li>
@@ -1213,6 +1213,9 @@ Since UART0 - TX0, RX0 gave me problems during the daisy chain, I updated the sc
 <li>LM2575D 3.3 Voltage regulator</li>
 <li>Fuse for the barrel jack for safety</li>
 <li>The input power can be anywhere from 5V to 40 volts.</li>
+<li>If using team power, connect jumpers at JP6 and JP7</li>
+<li>For individual power supply, connect JP3</li>
+<li>For using motors with own power, use JP7</li>
 </ul>
 <h2 id="resources">Resources</h2>
 <p>The schematic as a PDF download is available <a href="../kicad_final.pdf"><em>here</em></a>, and the Zip folder of the project <a href="../Individual%20subsystem%20april%20version.zip"><em>here</em></a>.</p>
