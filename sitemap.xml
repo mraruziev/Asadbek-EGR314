@@ -26,6 +26,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://mraruziev.github.io/Asadbek-EGR314/05-Resources/Resources/</loc>
+         <lastmod>2026-05-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://mraruziev.github.io/Asadbek-EGR314/05-Schematic/schematic/</loc>
          <lastmod>2026-05-05</lastmod>
          <changefreq>daily</changefreq>
@@ -62,11 +67,6 @@
     </url>
     <url>
          <loc>https://mraruziev.github.io/Asadbek-EGR314/Appendix/04-Lessons%20Learned/Lessons%20learned/</loc>
-         <lastmod>2026-05-05</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://mraruziev.github.io/Asadbek-EGR314/Appendix/05-Resources/Resources/</loc>
          <lastmod>2026-05-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
