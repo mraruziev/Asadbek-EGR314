@@ -100,3 +100,5 @@ except KeyboardInterrupt:
 ```
 
 ---
+
+To see the full code with Daisy Chain, please download the Zip file and use it through VS Code
