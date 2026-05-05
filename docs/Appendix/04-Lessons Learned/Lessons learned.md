@@ -15,9 +15,9 @@ Our project was successful, with most of our planned project requirements being 
 
 2. I learned a lot about the importance of showing up to classes and team meetings and being able to take notes. 
 
-3. Starting to work on PCB early, as well as double and triple checking PCB design, was very important for me, but I started working on my PCB 2 days before the deadline, so it is a big lesson for me for future projects.
+3. I learned importance of starting to work on PCB early, as well as double and triple checking PCB design, was very important for me, but I started working on my PCB 2 days before the deadline, so it is a big lesson for me for future projects.
 
-4. Order components early and coordinate with your teammates and professor to choose good motors if you are running 4 wheels. We ordered wheels from Amazon, and they were not delivered on time, even though the planned delivery date was before the Innovation Showcase.
+4. I learned to order components early and coordinate with your teammates and professor to choose good motors if you are running 4 wheels. We ordered wheels from Amazon, and they were not delivered on time, even though the planned delivery date was before the Innovation Showcase.
 
 5. 
 
@@ -26,10 +26,10 @@ Our project was successful, with most of our planned project requirements being 
 
 1. Read the lab manual and resources for the lab thoroughly. The links provided to you are very helpful to get started on working with your subsystem. Try to read at least part of a website every day, since they have helpful information you need, like voltage regulators, ESP32 setup, MQTT, timers, sensors, etc.
 
-2. Start labs early. This would be very helpful as you would have an idea of what you are doing instead of rushing through getting checked off.
+2. Start labs early. This would be very helpful as you would have an idea of what you are doing instead of rushing through getting checked off. 
 
 3. Asks questions from TAs and attends office hours. TAs have taken this class, and they have troubleshooted issues with their PCB and coding, so get feedback from them.
 
-4. Make sure to include twice more components from Digikey than you need for your PCB. You might need to resolder few components for your PCB and having extra parts like LEDs, buttons, motor drivers is crucial.
+4. Make sure to include twice more components from Digikey than you actually need for your PCB. You might need to resolder few components for your PCB and having extra parts like LEDs, buttons, motor drivers is crucial.
 
-5. 
+5. Learn surface mount soldering by practising on cheap boards from Amazon. That way you will be well prepapred before your PCB arrives.
