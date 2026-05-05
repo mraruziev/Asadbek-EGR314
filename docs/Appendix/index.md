@@ -2,7 +2,7 @@
 title: Appendix - Main Page
 ---
 
->The Appendix is where supporting information goes that is not in the main body. **Remove note before Review**
+>The Appendix is where supporting information goes that is not in the main body. 
 
 ## Appendix Content
 
