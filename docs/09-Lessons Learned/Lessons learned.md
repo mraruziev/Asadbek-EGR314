@@ -23,6 +23,13 @@ Our project was successful, with most of our planned project requirements being 
 
 6. 3D printing or machining your design/frame to include your PCBs and electronics would be very professional and helpful to showcase your concept design more clearly.
 
+7. I learned importance of starting to work on PCB early, as well as double and triple checking PCB design, was very important for me, but I started working on my PCB 2 days before the deadline, so it is a big lesson for me for future projects.
+
+8. Learning coding on Python and VS Code and reviewing slides from EGR 219 is crucial. This class is very coding-heavy and those skills are crucial for the career too.
+
+9. I learned that putting components in proper way on the PCB is crucial. I put my barrel jack right next to my voltage regulator and it was hard to connect wires.
+
+10. It is important to update the datasheet website as you go. Try to write changes to the website as you go. This helps to keep up with assignments and to keep up with the design review.
 
 
 ## Recommendations for future students
