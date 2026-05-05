@@ -6,22 +6,7 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://mraruziev.github.io/Asadbek-EGR314/05-Resources/Resources/</loc>
-         <lastmod>2026-05-05</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://mraruziev.github.io/Asadbek-EGR314/08-Resources/Resources/</loc>
-         <lastmod>2026-05-05</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://mraruziev.github.io/Asadbek-EGR314/09-Lessons%20Learned/Lessons%20learned/</loc>
-         <lastmod>2026-05-05</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://mraruziev.github.io/Asadbek-EGR314/10-Hardware%20V2.0/Hardware%20V2.0/</loc>
          <lastmod>2026-05-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -57,6 +42,16 @@
     </url>
     <url>
          <loc>https://mraruziev.github.io/Asadbek-EGR314/Component-Selection/Component-Selection/</loc>
+         <lastmod>2026-05-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://mraruziev.github.io/Asadbek-EGR314/Hardware%20V2.0/Hardware%20V2.0/</loc>
+         <lastmod>2026-05-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://mraruziev.github.io/Asadbek-EGR314/Lessons%20Learned/Lessons%20learned/</loc>
          <lastmod>2026-05-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
