@@ -32,8 +32,8 @@ for<br>
 
 ### My Contribution 
 
-* Our team is focused on making land based explorative rover project that drives to different places and uses its sensors to perform measurements.
-* I am responsible for mobility of the rover using ESP32. I will be using 4 motors with wheel attached. Motors will be working through the motor driver to move the robot from the distance through WiFi.
+* Our team is focused on making a land-based explorative rover project that drives to different places and uses its sensors to perform measurements. The Crop Scout is a ground-based, remotely operated, sensing and exploration rover. It is capable of going to any place and detecting metal, measuring temperature, and humidity. All data works through an MQTT connection and a UART
+* I am responsible for the mobility of the rover using ESP32. I will be using 4 motors with wheels attached. Motors will be working through the motor driver to move the robot from a distance through WiFi.
 
 To review the details listed of the material used to construct the subsection, you can review it in the ["Team"](https://egr314-s-2026-202.github.io/) section of the datasheet.
 
