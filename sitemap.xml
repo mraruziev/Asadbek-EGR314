@@ -6,42 +6,52 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://mraruziev.github.io/Asadbek-EGR314/01%20Requirements/Requirements/</loc>
+         <loc>https://mraruziev.github.io/Asadbek-EGR314/01-Requirements/Requirements/</loc>
          <lastmod>2026-05-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://mraruziev.github.io/Asadbek-EGR314/02%20Block-Diagram/Block-Diagram/</loc>
+         <loc>https://mraruziev.github.io/Asadbek-EGR314/02-Block-Diagram/Block-Diagram/</loc>
          <lastmod>2026-05-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://mraruziev.github.io/Asadbek-EGR314/03%20Component-Selection/Component-Selection/</loc>
+         <loc>https://mraruziev.github.io/Asadbek-EGR314/03-Component-Selection/Component-Selection/</loc>
          <lastmod>2026-05-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://mraruziev.github.io/Asadbek-EGR314/04%20BOM/BOM/</loc>
+         <loc>https://mraruziev.github.io/Asadbek-EGR314/04-BOM/BOM/</loc>
          <lastmod>2026-05-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://mraruziev.github.io/Asadbek-EGR314/05%20Schematic/schematic/</loc>
+         <loc>https://mraruziev.github.io/Asadbek-EGR314/05-Schematic/schematic/</loc>
          <lastmod>2026-05-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://mraruziev.github.io/Asadbek-EGR314/06%20PCB/pcb/</loc>
+         <loc>https://mraruziev.github.io/Asadbek-EGR314/06-PCB/pcb/</loc>
          <lastmod>2026-05-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://mraruziev.github.io/Asadbek-EGR314/07%20API/API/</loc>
+         <loc>https://mraruziev.github.io/Asadbek-EGR314/07-API/API/</loc>
          <lastmod>2026-05-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://mraruziev.github.io/Asadbek-EGR314/08-Resources/Resources/</loc>
+         <lastmod>2026-05-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://mraruziev.github.io/Asadbek-EGR314/09-Lessons%20Learned/Lessons%20learned/</loc>
+         <lastmod>2026-05-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://mraruziev.github.io/Asadbek-EGR314/10-Hardware%20V2.0/Hardware%20V2.0/</loc>
          <lastmod>2026-05-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -57,16 +67,6 @@
     </url>
     <url>
          <loc>https://mraruziev.github.io/Asadbek-EGR314/Appendix/02-Power-Budget/Power-Budget/</loc>
-         <lastmod>2026-05-05</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://mraruziev.github.io/Asadbek-EGR314/Hardware%20V2.0/Hardware%20V2.0/</loc>
-         <lastmod>2026-05-05</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://mraruziev.github.io/Asadbek-EGR314/Lessons%20Learned/Lessons%20learned/</loc>
          <lastmod>2026-05-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
