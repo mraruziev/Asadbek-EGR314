@@ -51,27 +51,27 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://mraruziev.github.io/Asadbek-EGR314/09-Lessons%20Learned/Lessons%20learned/</loc>
+         <lastmod>2026-05-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://mraruziev.github.io/Asadbek-EGR314/10-Hardware%20V2.0/Hardware%20V2.0/</loc>
+         <lastmod>2026-05-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://mraruziev.github.io/Asadbek-EGR314/Appendix/</loc>
          <lastmod>2026-05-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://mraruziev.github.io/Asadbek-EGR314/Appendix/02-Microcontroller-Selection/esp-32-table/</loc>
+         <loc>https://mraruziev.github.io/Asadbek-EGR314/Appendix/01-Microcontroller-Selection/esp-32-table/</loc>
          <lastmod>2026-05-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://mraruziev.github.io/Asadbek-EGR314/Appendix/03-Power-Budget/Power-Budget/</loc>
-         <lastmod>2026-05-05</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://mraruziev.github.io/Asadbek-EGR314/Appendix/04-Lessons%20Learned/Lessons%20learned/</loc>
-         <lastmod>2026-05-05</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://mraruziev.github.io/Asadbek-EGR314/Appendix/06-Hardware%20V2.0/Hardware%20V2.0/</loc>
+         <loc>https://mraruziev.github.io/Asadbek-EGR314/Appendix/02-Power-Budget/Power-Budget/</loc>
          <lastmod>2026-05-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
