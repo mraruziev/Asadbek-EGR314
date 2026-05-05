@@ -15,8 +15,8 @@ Power Budget helps to understand more about the maximum current draw. This helsp
 
 ## Conclusions
 
-Power Budget helped me
+Power Budget helped me a lot to understand my current for ESP32 and to choose good fuse. I also was able to have board working without any problems.
 
 ## Resouces
 
-The power budget as a PDF download is available [*here*](PowerBudgetExample.pdf), and a Microsoft Excel Sheet [*here*](PowerBudgetExample.xlsx).
+The power budget as a PDF download is available [*here*](PowerBudget_EGR314.pdf), and a Microsoft Excel Sheet [*here*](PowerBudgeexcel.xlsx).

@@ -17,11 +17,24 @@ This section is an overview of the PCB design for the Metal detection system for
 
 ![3D](back_PCB.png){style width:"350" height:"300;"}
 
-**Figure #4:** Back View of PCB.
+**Figure #3:** Back View of PCB.
 
 ![Back](3dview.png){style width:"350" height:"300;"}
 
-**Figure #3:** 3D View of PCB.
+**Figure #4:** 3D View of PCB.
+
+![Front](real_front.png){style width:"350" height:"300;"}
+
+**Figure #5:** FrManufactured Front View of PCB.
+
+
+![3D](real_back.png){style width:"350" height:"300;"}
+
+**Figure #6:** JLCPCB Back View of PCB.
+
+![Back](soldered.png){style width:"350" height:"300;"}
+
+**Figure #7:** Soldered View of PCB connected to team Daisy Chain
 
 
 
