@@ -355,6 +355,26 @@
         
   
   
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../08-Resources/Resources/" class="md-tabs__link">
+          
+  
+    
+  
+  08 Resources
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
     
   
   
@@ -770,6 +790,52 @@
       
   
   
+  
+  
+    
+    
+      
+        
+      
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../../08-Resources/Resources/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    08 Resources
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
     
   
   
@@ -806,7 +872,7 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" checked="">
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" checked="">
         
           
           
@@ -822,14 +888,14 @@
             </a>
             
               
-              <label class="md-nav__link " for="__nav_9" id="__nav_9_label" tabindex="">
+              <label class="md-nav__link " for="__nav_10" id="__nav_10_label" tabindex="">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_9">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_10">
             <span class="md-nav__icon md-icon"></span>
             Appendix
           </label>
@@ -1003,10 +1069,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_5" checked="">
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10_5" checked="">
         
           
-          <label class="md-nav__link" for="__nav_9_5" id="__nav_9_5_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_10_5" id="__nav_10_5_label" tabindex="0">
             
   
   <span class="md-ellipsis">
@@ -1017,8 +1083,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_9_5_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_9_5">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_10_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_10_5">
             <span class="md-nav__icon md-icon"></span>
             05 Resources
           </label>
@@ -1248,11 +1314,13 @@
 
 <h3 id="overview">Overview</h3>
 <h2 id="project-code">Project code</h2>
-<p>Following is my Zip for the code available for download from <a href="../Motor%20subsystem.zip"><em>here</em></a>.</p>
-<p>To run it, make sure to use either pymaker or mpremote on the VS code. I would highly suggest using mpremote to download the code to the ESP32. To do that, download the mpremote library from VS code.</p>
-<p>Use following commands on terminal, once you open the folder on VS code and set up the mpremote: </p>
+<p>Following is my Zip for the code available for download from <a href="Motor subsystem.zip"><em>here</em></a>.</p>
+<p>This code includes certificates for the ESP32, boot.py, main.py, and config.py for WiFi configuration. To run it, make sure to use either pymaker or mpremote in VS Code. I would highly suggest using mpremote to download the code to the ESP32. To do that, download the mpremote library from VS Code.</p>
+<p>Use the following commands on the terminal, once you open the folder on VS Code and set up the mpremote: </p>
 <p>To use the ESP32, type in the terminal: mpremote connect auto
-To program ESP32 type: mpremote fs ls -r</p>
+<br></p>
+<p>To program ESP32 type: mpremote fs ls -r
+Make sure to change the config.py with your local WiFi name and password so that the ESP32 can work wirelessly and you can control motors.</p>
 <hr>
 <h2 id="individual-motor-code">Individual motor code</h2>
 <div class="highlight"><span class="filename">main.py</span><pre><span></span><code><span class="kn">import</span> <span class="nn">machine</span>
