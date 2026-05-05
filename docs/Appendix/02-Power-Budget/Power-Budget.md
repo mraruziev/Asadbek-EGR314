@@ -3,7 +3,7 @@ title: Appendix - Power Budget
 ---
 
 ## Overview
-Write a overview of what you did and why you did a Power Budget.
+Power Budget helps to understand more about the maximum current draw. This helsp to understand the choice of appropariate fuse. The power budget also helps to know if the subsystem is going to operate in different current scenarios.
 
 > Capture your power budge as a image to display. Take time to get clean breaks and a well organized layout.
 
