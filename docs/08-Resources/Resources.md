@@ -8,16 +8,12 @@ title: Module Lessons
 ## Project code
 Following is my Zip for the code available for download from [*here*](Motor subsystem.zip).
 
-This code includes certificates for the ESP32, boot.py, main.py, and config.py for WiFi configuration. To run it, make sure to use either pymaker or mpremote in VS Code. I would highly suggest using mpremote to download the code to the ESP32. To do that, download the mpremote library from VS Code.
+To run it, make sure to use either pymaker or mpremote on the VS code. I would highly suggest using mpremote to download the code to the ESP32. To do that, download the mpremote library from VS code.
 
-Use the following commands on the terminal, once you open the folder on VS Code and set up the mpremote: 
+Use following commands on terminal, once you open the folder on VS code and set up the mpremote: 
 
 To use the ESP32, type in the terminal: mpremote connect auto
-<br>
-
 To program ESP32 type: mpremote fs ls -r
-Make sure to change the config.py with your local WiFi name and password so that the ESP32 can work wirelessly and you can control motors.
-
 
 
 ---
