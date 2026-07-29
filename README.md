@@ -4,6 +4,6 @@ The PCB board works with an ESP32-S3-WROOM-1, drives 4 DC motors, drives 2 LEDs 
 
 The site covers requirements, block diagram, component selection, BOM, schematic, PCB, and the full subsystem API.
 
-Link to the live site: [chvisto.github.io](https://mraruziev.github.io/Asadbek-EGR314/)
+Link to the live site: [mr.aruziev.github.io/Asadbek-EGR314](https://mraruziev.github.io/Asadbek-EGR314/)
 
 Link to the team website: https://egr314-s-2026-202.github.io/
