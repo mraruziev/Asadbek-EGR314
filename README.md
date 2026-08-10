@@ -37,7 +37,7 @@ CropSCOUT is backed by **UzCombinator**, Batch 2, 2026.
 
 **Asror Uralov** — mechanical. Chassis, arms and attachment systems in SolidWorks.
 
-**Samandar** — [role]
+**Samandar** — manufacturing engineer
 
 ## The code
 
@@ -56,4 +56,4 @@ The mobility subsystem runs MicroPython on the ESP32-S3: MQTT over TLS for comma
 Live site: **[mraruziev.github.io/Asadbek-EGR314](https://mraruziev.github.io/Asadbek-EGR314/)**
 Team 202 report: **[egr314-s-2026-202.github.io](https://egr314-s-2026-202.github.io/)**
 
-Built with the rest of Team 202: Cale Yuen, Cristopher Gutierrez, Jacob Alger, Aaron Kiem and Isaiah Johnston.
+Built with the rest of Team 202: Caleb Yuen, Cristopher Gutierrez, Jacob Alger, Aaron Kiem and Isaiah Johnston.
