@@ -1,4 +1,4 @@
-# CropSCOUT — from a class project to a company
+# CropSCOUT — from a class project to robot working
 
 This repository is where CropSCOUT started: my individual datasheet for **EGR 314** at ASU Polytechnic, Spring 2026, as part of Team 202 — the Crop S.C.O.U.T.S.
 
