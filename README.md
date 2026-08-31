@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 =======
 # CropSCOUT — from a class project to robot working
 
