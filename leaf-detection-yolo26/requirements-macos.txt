@@ -1,0 +1,10 @@
+# macOS / Apple Silicon dependency set.
+# Drops roboflow and kaggle (not needed for the Hugging Face data path) and adds the
+# Hugging Face downloader used by leaf-download-plantvillage-hf.
+ultralytics>=8.4.0
+opencv-python>=4.10.0
+PyYAML>=6.0.2
+tqdm>=4.66.0
+python-dotenv>=1.0.1
+huggingface_hub>=0.25.0
+pyarrow>=15.0.0

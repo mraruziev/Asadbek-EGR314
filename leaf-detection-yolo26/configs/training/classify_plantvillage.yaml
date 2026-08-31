@@ -1,0 +1,11 @@
+model: yolo26n-cls.pt
+data: data/processed/plantvillage_cls
+epochs: 50
+imgsz: 224
+batch: -1
+patience: 10
+device: null
+project: runs/classify
+name: plantvillage_yolo26n_cls
+cache: false
+workers: 4

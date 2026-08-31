@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "leaf-ai-yolo26"
+version = "0.1.0"
+description = "YOLO26 leaf detection, disease classification, and realtime inference subsystem."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "ultralytics>=8.4.0",
+  "opencv-python>=4.10.0",
+  "roboflow>=1.1.48",
+  "kaggle>=1.6.17",
+  "PyYAML>=6.0.2",
+  "tqdm>=4.66.0",
+  "python-dotenv>=1.0.1",
+]
+
+[project.scripts]
+leaf-train = "leaf_ai.train:main"
+leaf-export = "leaf_ai.export:main"
+leaf-realtime = "leaf_ai.realtime:main"
+leaf-analyze = "leaf_ai.analyze:main"
+leaf-download-plantdoc = "leaf_ai.datasets.download_plantdoc:main"
+leaf-download-plantvillage = "leaf_ai.datasets.download_plantvillage:main"
+leaf-download-plantvillage-hf = "leaf_ai.datasets.download_plantvillage_hf:main"
+leaf-download-negatives = "leaf_ai.datasets.download_negatives:main"
+leaf-download-plantdoc-hf = "leaf_ai.datasets.download_plantdoc_hf:main"
+leaf-merge-plantwild = "leaf_ai.datasets.merge_plantwild:main"
+leaf-prepare-plantvillage = "leaf_ai.datasets.prepare_plantvillage_cls:main"
+leaf-prepare-json-cls = "leaf_ai.datasets.prepare_classification_json:main"
+leaf-pseudo-yolo = "leaf_ai.datasets.make_pseudo_yolo:main"
+leaf-validate-yolo = "leaf_ai.datasets.validate_yolo:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
