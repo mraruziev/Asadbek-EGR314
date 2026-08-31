@@ -33,3 +33,4 @@ Showing my screenshot of the block diagram here
 
 SPI UART serial communication protocols are just alternative communication ways to connect to motors actuators sensor. All WiFi is done by esp32. 
 
+Decision-making process: My block diagram meets project requirements by following the requirement TR-01(mobillity of the rover) and helping with Wi-Fi/MQTT of the rover. 

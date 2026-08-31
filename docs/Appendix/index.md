@@ -2,9 +2,9 @@
 title: Appendix - Main Page
 ---
 
->The Appendix is where supporting information goes that is not in the main body. **Remove note before Review**
+>The Appendix is where supporting information goes that is not in the main body. 
 
 ## Appendix Content
 
-* [Component Selection Process](https://embedded-systems-design.github.io/EGR314DataSheetTemplate/Appendix/01-Componet-Selection/Component-Selection-Process/)
-* [Microcontroller Selection Process (to Pic)](https://embedded-systems-design.github.io/EGR314DataSheetTemplate/Appendix/02-Microcontroller-Selection/pic-table/)
+* [Microcontroller selection](https://mraruziev.github.io/Asadbek-EGR314/Appendix/02-Microcontroller-Selection/esp-32-table/)
+* [Power budget](https://mraruziev.github.io/Asadbek-EGR314/Appendix/02-Power-Budget/Power-Budget/)
